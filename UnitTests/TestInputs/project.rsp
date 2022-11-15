@@ -1,0 +1,1342 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE project SYSTEM "./project.dtd" [
+  <!-- PUT INTERNAL DOCUMENT TYPE DEFINITION SUBSET HERE -->
+]>
+<project name="courtyard" kind="ProjectX" fold="courtyard.RiSCAN"><app_caption>RiSCAN PRO</app_caption>
+	<app_version>200009900</app_version><calibrations name="CALIBRATIONS" kind="CALIBRATIONS" fold="CALIBRATIONS"><camcalibs name="CAMERA" kind="CAMCALIBS"><camcalib_opencv name="Calibration_VZ400_D700_14mm_release" kind="CamCalib_OpenCVX" states="default"><angle_extents><tan_max_horz>1.279662594224763</tan_max_horz><tan_max_vert>0.83518145903368192</tan_max_vert>
+					<tan_min_horz>-1.2949467835609317</tan_min_horz>
+					<tan_min_vert>-0.87448041183276442</tan_min_vert>
+				</angle_extents>
+				<camcalibundist_ref noderef="/courtyard/CALIBRATIONS/CAMERA/Calibration_VZ400_D700_14mm_release_undistorted"/>
+				<cameramodel>Nikon D700</cameramodel><cameraserialnumber>2336131</cameraserialnumber><internal_opencv><cx>2141.2342270233098</cx><cy>1444.53522064252</cy>
+					<fx>1711.2279066749901</fx>
+					<fy>1715.5935388772602</fy>
+					<k1>-0.14824446775128301</k1>
+					<k2>0.48734935126247098</k2>
+					<k3>-0.91779961311605299</k3>
+					<k4>0.54423278334754797</k4>
+					<p1>0.0011325861944141</p1>
+					<p2>-1.98066247267E-005</p2>
+				</internal_opencv>
+				<intrinsic_opencv><dx>8.3999999999999987E-006</dx><dy>8.3999999999999987E-006</dy>
+					<nx>4256</nx>
+					<ny>2832</ny>
+				</intrinsic_opencv>
+				<lensmodel>Nikkor 14mm</lensmodel>
+				<lensserialnumber>218385</lensserialnumber>
+				<name>Calibration_VZ400_D700_14mm_release</name>
+				<settings>Aperture ?, Exposure Time = ? sec, Flash ?</settings>
+				<version>1</version>
+			</camcalib_opencv>
+			<camcalib_opencv name="Calibration_VZ400_D700_14mm_release_undistorted" kind="CamCalib_OpenCVX"><angle_extents><tan_max_horz>1.279662594224763</tan_max_horz><tan_max_vert>0.83518145903368192</tan_max_vert>
+					<tan_min_horz>-1.2949467835609317</tan_min_horz>
+					<tan_min_vert>-0.87448041183276442</tan_min_vert>
+				</angle_extents>
+				<cameramodel>Nikon D700</cameramodel><cameraserialnumber>2336131</cameraserialnumber><internal_opencv><cx>2140.422525134737</cx><cy>1449.3503150695174</cy>
+					<fx>1652.6911787685286</fx>
+					<fy>1657.0727577046029</fy>
+					<k1>0</k1>
+					<k2>0</k2>
+					<k3>0</k3>
+					<k4>0</k4>
+					<p1>0</p1>
+					<p2>0</p2>
+				</internal_opencv>
+				<intrinsic_opencv><dx>8.3999999999999987E-006</dx><dy>8.3999999999999987E-006</dy>
+					<nx>4256</nx>
+					<ny>2834</ny>
+				</intrinsic_opencv>
+				<lensmodel>Nikkor 14mm</lensmodel>
+				<lensserialnumber>218385</lensserialnumber>
+				<name>Calibration_VZ400_D700_14mm_release_undistorted</name>
+				<settings>Aperture ?, Exposure Time = ? sec, Flash ?</settings>
+				<version>1</version>
+			</camcalib_opencv>
+			<camcalib_opencv name="CamCalib_OpenCV01" kind="CamCalib_OpenCVX"><angle_extents><tan_max_horz>0.8105633042313664</tan_max_horz><tan_max_vert>0.69279197226802829</tan_max_vert>
+					<tan_min_horz>-0.84032363679734118</tan_min_horz>
+					<tan_min_vert>-0.69027340620545613</tan_min_vert>
+				</angle_extents>
+				<cameramodel>vmx1</cameramodel><cameraserialnumber></cameraserialnumber><internal_opencv><cx>1230.2854784674533</cx><cy>1010.6562345655933</cy>
+					<fx>1464.0614932079533</fx>
+					<fy>1464.1390287963328</fy>
+					<k1>0</k1>
+					<k2>0</k2>
+					<k3>0</k3>
+					<k4>0</k4>
+					<p1>0</p1>
+					<p2>0</p2>
+				</internal_opencv>
+				<intrinsic_opencv><dx>3.45E-006</dx><dy>3.45E-006</dy>
+					<nx>2418</nx>
+					<ny>2026</ny>
+				</intrinsic_opencv>
+				<lensmodel></lensmodel>
+				<lensserialnumber></lensserialnumber>
+				<name>CamCalib_OpenCV01</name>
+				<settings></settings>
+				<version>1</version>
+			</camcalib_opencv><camcalib_opencv name="CamCalib_OpenCV02" kind="CamCalib_OpenCVX"><angle_extents><tan_max_horz>0.80608022019444531</tan_max_horz><tan_max_vert>0.68708082217120653</tan_max_vert>
+					<tan_min_horz>-0.84723752672276966</tan_min_horz>
+					<tan_min_vert>-0.69264087700817459</tan_min_vert>
+				</angle_extents>
+				<cameramodel>vmx2</cameramodel><cameraserialnumber></cameraserialnumber><internal_opencv><cx>1241.6587985443438</cx><cy>1017.082225823656</cy>
+					<fx>1465.5380095676941</fx>
+					<fy>1468.4120726701674</fy>
+					<k1>0</k1>
+					<k2>0</k2>
+					<k3>0</k3>
+					<k4>0</k4>
+					<p1>0</p1>
+					<p2>0</p2>
+				</internal_opencv>
+				<intrinsic_opencv><dx>3.45E-006</dx><dy>3.45E-006</dy>
+					<nx>2424</nx>
+					<ny>2027</ny>
+				</intrinsic_opencv>
+				<lensmodel></lensmodel>
+				<lensserialnumber></lensserialnumber>
+				<name>CamCalib_OpenCV02</name>
+				<settings></settings>
+				<version>1</version>
+			</camcalib_opencv>
+			<camcalib_opencv name="CamCalib_OpenCV03" kind="CamCalib_OpenCVX"><angle_extents><tan_max_horz>0.80561472037759616</tan_max_horz><tan_max_vert>0.68647157686806886</tan_max_vert>
+					<tan_min_horz>-0.84560026029400384</tan_min_horz>
+					<tan_min_vert>-0.68930497156573517</tan_min_vert>
+				</angle_extents>
+				<cameramodel>vmx3</cameramodel><cameraserialnumber></cameraserialnumber><internal_opencv><cx>1238.2769374822862</cx><cy>1012.0800824435483</cy>
+					<fx>1464.3762491886579</fx>
+					<fy>1468.261689952184</fy>
+					<k1>0</k1>
+					<k2>0</k2>
+					<k3>0</k3>
+					<k4>0</k4>
+					<p1>0</p1>
+					<p2>0</p2>
+				</internal_opencv>
+				<intrinsic_opencv><dx>3.45E-006</dx><dy>3.45E-006</dy>
+					<nx>2419</nx>
+					<ny>2021</ny>
+				</intrinsic_opencv>
+				<lensmodel></lensmodel>
+				<lensserialnumber></lensserialnumber>
+				<name>CamCalib_OpenCV03</name>
+				<settings></settings>
+				<version>1</version>
+			</camcalib_opencv>
+			<camcalib_opencv name="CamCalib_OpenCV04" kind="CamCalib_OpenCVX"><angle_extents><tan_max_horz>0.79963299609888602</tan_max_horz><tan_max_vert>0.69179970355204749</tan_max_vert>
+					<tan_min_horz>-0.839199714946592</tan_min_horz>
+					<tan_min_vert>-0.67308753461180557</tan_min_vert>
+				</angle_extents>
+				<cameramodel>vmx4</cameramodel><cameraserialnumber></cameraserialnumber><internal_opencv><cx>1237.6770962375706</cx><cy>995.66007680562227</cy>
+					<fx>1474.8302152561363</fx>
+					<fy>1479.2430785096266</fy>
+					<k1>0</k1>
+					<k2>0</k2>
+					<k3>0</k3>
+					<k4>0</k4>
+					<p1>0</p1>
+					<p2>0</p2>
+				</internal_opencv>
+				<intrinsic_opencv><dx>3.45E-006</dx><dy>3.45E-006</dy>
+					<nx>2418</nx>
+					<ny>2020</ny>
+				</intrinsic_opencv>
+				<lensmodel></lensmodel>
+				<lensserialnumber></lensserialnumber>
+				<name>CamCalib_OpenCV04</name>
+				<settings></settings>
+				<version>1</version>
+			</camcalib_opencv>
+		</camcalibs>
+		<mountcalibs name="MOUNTING" kind="MOUNTCALIBS"><mountcalib name="Mounting_VZ400_D700_14mm_release" kind="MountCalibX" states="default"><adjusted>0</adjusted>
+				<matrix rows="4" cols="4"> -0.157538292 0.000217059 0.987512855 -0.177084174   -0.023258579 -0.999723388 -0.003490707 0.00799067   0.98723894 -0.023518066 0.157499764 -0.04564975   0 0 0 1   </matrix>
+				<name>Mounting_VZ400_D700_14mm_release</name>
+			</mountcalib>
+			<mountcalib name="MountCalib01" kind="MountCalibX"><adjusted>0</adjusted><matrix rows="4" cols="4"> -0.136843289 0.956709276 0.256868206 0.428912533   0.426497178 0.290944959 -0.856417648 -0.342090852   -0.894077218 -0.007641443 -0.447847672 -0.041684354   0 0 0 1   </matrix>
+				<name>MountCalib01</name>
+			</mountcalib><mountcalib name="MountCalib02" kind="MountCalibX"><adjusted>0</adjusted><matrix rows="4" cols="4"> 0.432331991 -0.003129831 -0.901709074 -0.096407724   0.901706212 0.005789629 0.432310523 0.348182101   0.003867502 -0.999978342 0.00532523 0.137755941   0 0 0 1   </matrix>
+				<name>MountCalib02</name>
+			</mountcalib>
+			<mountcalib name="MountCalib03" kind="MountCalibX"><adjusted>0</adjusted><matrix rows="4" cols="4"> 0.45220468 0.039439558 -0.891041777 -0.013926987   -0.89168583 -0.0026145550000000006 -0.452647263 -0.430279714   -0.020181886 0.999218537 0.033985381 0.145731334   0 0 0 1   </matrix>
+				<name>MountCalib03</name>
+			</mountcalib>
+			<mountcalib name="MountCalib04" kind="MountCalibX"><adjusted>0</adjusted><matrix rows="4" cols="4"> -0.15532289 -0.941190173 0.300059759 0.429014689   -0.442966212 0.337854433 0.830442844 0.24739982   -0.882981164 -0.003929552 -0.469391972 -0.032072368   0 0 0 1   </matrix>
+				<name>MountCalib04</name>
+			</mountcalib>
+		</mountcalibs>
+		<reflcalibs name="REFLECTOR" kind="REFLCALIBS"><reflcalib name="RIEGL Flat 5cm" kind="ReflCalibX"><name>RIEGL Flat 5cm</name><refl_color>16777215</refl_color>
+        <refl_const>0</refl_const><refl_type>Disc</refl_type><v_disc_diameter>0.050000000745058061</v_disc_diameter><v_disc_width>0</v_disc_width>
+      </reflcalib>
+			<reflcalib name="RIEGL Cylinder 5cm" kind="ReflCalibX"><name>RIEGL Cylinder 5cm</name><refl_color>16777215</refl_color>
+        <refl_const>0.02500000037252903</refl_const><refl_type>Cylinder</refl_type><v_cylinder_diameter>0.050000000745058061</v_cylinder_diameter><v_cylinder_height>0.050000000745058061</v_cylinder_height>
+      </reflcalib>
+		</reflcalibs>
+		<tiltmounts name="TILTMOUNTS" kind="TILTMOUNTS"/>
+	</calibrations>
+	<camera>Nikon D700</camera><cameraserport>COM1</cameraserport>
+	<collections name="COLLECTIONS" kind="COLLECTIONS"><animations name="ANIMATIONS" kind="ANIMATIONS"/><overlays name="OVERLAYS" kind="OVERLAYS"><overlay name="Logo" kind="OverlayX" states="default"><name>Logo</name>
+				<overlayitem name="" kind="OverlayItemX"><alpha>65</alpha>
+					<horz_align>0</horz_align><horz_pos>0</horz_pos>
+					<horz_pos_relation>0</horz_pos_relation>
+					<source_ref noderef="/courtyard/OBJECTS/IMAGES/Logo"/><tex_filter_mode>1</tex_filter_mode>
+					<transparent>1</transparent>
+					<vert_align>0</vert_align><vert_pos>0</vert_pos>
+					<vert_pos_relation>0</vert_pos_relation>
+					<visible>1</visible>
+				</overlayitem>
+			</overlay>
+		</overlays>
+		<scanconfs name="CONFIGS" kind="SCANCONFS"/>
+		<values name="VALUES" kind="VALUES"/>
+		<viewports name="VIEWPORTS" kind="VIEWPORTS"/>
+	</collections>
+	<commandport>//S9996063:20002</commandport><dataport>//S9996063:20001</dataport><date_created>2011-04-28 11:01:40+096</date_created>
+	<date_modified>2014-06-16 11:02:51+995</date_modified>
+	<doc_version>11810</doc_version>
+	<geometry_objects name="OBJECTS" kind="GEOMETRYOBJECTS" fold="OBJECTS"><cylinder_objects name="CYLINDERS" kind="CYLINDEROBJECTS"/><images name="IMAGES" kind="PROJECTIMAGES" fold="IMAGES"><image name="Logo" kind="ProjectImageX"><cop name="COP" kind="COP"><freeze>0</freeze>
+					<matrix rows="4" cols="4"> 1 0 0 0   0 1 0 0   0 0 1 0   0 0 0 1   </matrix>
+				</cop>
+				<file>Logo.tif</file>
+				<name>Logo</name>
+				<text></text>
+				<tpl_image name="TPL (IMAGE)" kind="TPL_IMAGE"><active>1</active>
+				</tpl_image>
+			</image>
+		</images>
+		<orthophotos name="ORTHOPHOTOS" kind="ORTHOPHOTOS" fold="ORTHOPHOTOS"/>
+		<plane_objects name="PLANES" kind="PLANEOBJECTS"/>
+		<point_objects name="POINTS" kind="POINTOBJECTS"/><pointclouds name="POINTCLOUDS" kind="POINTCLOUDS" fold="POINTCLOUDS"/>
+		<polydata_objects name="POLYDATA" kind="POLYDATAOBJECTS" fold="POLYDATA"/>
+		<polyline_objects name="POLYLINES" kind="POLYLINEOBJECTS"/>
+		<section_objects name="SECTIONS" kind="SECTIONOBJECTS" fold="SECTIONS"/>
+		<sphere_objects name="SPHERES" kind="SPHEREOBJECTS"/>
+		<undistimages name="UNDISTORTED IMAGES" kind="PROJECTUNDISTIMAGES" fold="UNDISTIMAGES"/>
+	</geometry_objects>
+	<gps_port>\\.\COM1:115200</gps_port>
+	<gps_useinitscript>0</gps_useinitscript>
+	<gps_usequitscript>0</gps_usequitscript><gsm_database_file>C:\Program Files (x86)\Riegl_LMS\GeoSys\GeoSysManager_File_SP.gsfx</gsm_database_file><gsm_export_crs></gsm_export_crs><gsm_export_dtr></gsm_export_dtr>
+  <gsm_import_crs></gsm_import_crs><gsm_import_dtr></gsm_import_dtr>
+  <gsm_project_crs></gsm_project_crs><gsm_scanner_crs></gsm_scanner_crs><gsm_scanner_dtr></gsm_scanner_dtr>
+  <instrument_phi_offset>0</instrument_phi_offset>
+	<instrument_range_offset>0</instrument_range_offset>
+	<instrument_theta_offset>0</instrument_theta_offset>
+	<mta_autocalc_enabled>0</mta_autocalc_enabled><mta_estmax_scanrange>0</mta_estmax_scanrange>
+	<mta_manual_fixed_zone>1</mta_manual_fixed_zone><mta_manual_range_max>3000</mta_manual_range_max>
+	<mta_manual_range_min>0</mta_manual_range_min>
+	<name>courtyard</name><overview_max_x>-39.507574081422099</overview_max_x><overview_max_y>282.33062744141187</overview_max_y>
+	<overview_min_x>-87.82697105407904</overview_min_x><overview_min_y>234.01123046875434</overview_min_y>
+	<pop name="POP" kind="POP"><freeze>0</freeze>
+		<matrix rows="4" cols="4"> 1 0 0 -128300   0 1 0 330400   0 0 1 100   0 0 0 1   </matrix>
+	</pop>
+	<ppm_air_pressure>1000</ppm_air_pressure><ppm_air_temperature>12</ppm_air_temperature>
+	<ppm_moisture_pressure>8.399999999999968</ppm_moisture_pressure>
+	<ppm_total_geometric_correction>0</ppm_total_geometric_correction>
+	<project_latitude>0.84927430513835072</project_latitude><project_longitude>0.27337964738613078</project_longitude>
+	<scanpositions name="SCANS" kind="SCANS" fold="SCANS">
+		<scanposition name="ScanPos006_courtyard" kind="PositionX" fold="ScanPos006_courtyard"><name>ScanPos006_courtyard</name><polydata_objects name="POLYDATA" kind="POLYDATAOBJECTS" fold="POLYDATA"/>
+			<position_accuracy>3.3719570095834675</position_accuracy><position_coordsys>2</position_coordsys>
+			<position_enabled>1</position_enabled>
+			<position_vector length="3"> 4129217.0080436051 1076328.9191352974 4725137.4711210765 </position_vector>
+			<ppm_air_pressure>1000</ppm_air_pressure><ppm_air_temperature>12</ppm_air_temperature><ppm_instrument>VZ-400</ppm_instrument>
+			<ppm_moisture_pressure>8.399999999998807</ppm_moisture_pressure>
+			<ppm_total_geometric_correction>0</ppm_total_geometric_correction>
+			<profilescans name="PROFILESCANS" kind="PROFILESCANS" fold="PROFILESCANS"/>
+			<registered>1</registered><scanposimages name="SCANPOSIMAGES" kind="SCANPOSIMAGES" fold="SCANPOSIMAGES"><scanposimage name="110428_122416_Image101" kind="ScanPosImageX"><camcalib_ref noderef="/courtyard/CALIBRATIONS/CAMERA/Calibration_VZ400_D700_14mm_release"/><cop name="COP" kind="COP"><freeze>0</freeze>
+						<matrix rows="4" cols="4"> 0.861703897 -0.507411465 0 0   0.507411465 0.861703897 0 0   0 0 1 0.7   0 0 0 1   </matrix>
+					</cop>
+					<file>110428_122416_Image101.jpg</file><mountcalib_ref noderef="/courtyard/CALIBRATIONS/MOUNTING/Mounting_VZ400_D700_14mm_release"/>
+					<name>110428_122416_Image101</name><phi>30.491562</phi>
+					<raw_lambda>0</raw_lambda><raw_phi>0</raw_phi>
+					<text></text>
+					<theta>90</theta>
+					<tpl_image name="TPL (IMAGE)" kind="TPL_IMAGE"><active>1</active>
+					</tpl_image>
+				</scanposimage>
+				<scanposimage name="110428_122416_Image102" kind="ScanPosImageX"><camcalib_ref noderef="/courtyard/CALIBRATIONS/CAMERA/Calibration_VZ400_D700_14mm_release"/><cop name="COP" kind="COP"><freeze>0</freeze>
+						<matrix rows="4" cols="4"> -0.0085792701296132122 -0.99996319738480538 5.2554397717696518E-019 0   0.99996319738480538 -0.0085792701296132122 -6.1255168312073882E-017 0   6.1257422745431002E-017 9.6296497219361792E-035 1 0   0 0 0 1   </matrix>
+					</cop>
+					<file>110428_122416_Image102.jpg</file><mountcalib_ref noderef="/courtyard/CALIBRATIONS/MOUNTING/Mounting_VZ400_D700_14mm_release"/>
+					<name>110428_122416_Image102</name><phi>90.491562</phi>
+					<raw_lambda>0</raw_lambda><raw_phi>0</raw_phi>
+					<text></text>
+					<theta>90</theta>
+					<tpl_image name="TPL (IMAGE)" kind="TPL_IMAGE"><active>1</active>
+					</tpl_image>
+				</scanposimage>
+				<scanposimage name="110428_122416_Image103" kind="ScanPosImageX"><camcalib_ref noderef="/courtyard/CALIBRATIONS/CAMERA/Calibration_VZ400_D700_14mm_release"/><cop name="COP" kind="COP"><freeze>0</freeze>
+						<matrix rows="4" cols="4"> -0.8702831668495607 -0.4925517328142288 5.3311303859936019E-017 0   0.4925517328142288 -0.8702831668495607 -3.0172449720995789E-017 0   6.1257422745431002E-017 -3.0814879110195776E-033 1 0   0 0 0 1   </matrix>
+					</cop>
+					<file>110428_122416_Image103.jpg</file><mountcalib_ref noderef="/courtyard/CALIBRATIONS/MOUNTING/Mounting_VZ400_D700_14mm_release"/>
+					<name>110428_122416_Image103</name><phi>150.491562</phi>
+					<raw_lambda>0</raw_lambda><raw_phi>0</raw_phi>
+					<text></text>
+					<theta>90</theta>
+					<tpl_image name="TPL (IMAGE)" kind="TPL_IMAGE"><active>1</active>
+					</tpl_image>
+				</scanposimage>
+				<scanposimage name="110428_122416_Image104" kind="ScanPosImageX"><camcalib_ref noderef="/courtyard/CALIBRATIONS/CAMERA/Calibration_VZ400_D700_14mm_release"/><cop name="COP" kind="COP"><freeze>0</freeze>
+						<matrix rows="4" cols="4"> -0.8617038967199479 0.50741146457057626 5.2785759882759072E-017 0   -0.50741146457057626 -0.8617038967199479 3.1082718591078086E-017 0   6.1257422745431002E-017 -3.0814879110195776E-033 1 0   0 0 0 1   </matrix>
+					</cop>
+					<file>110428_122416_Image104.jpg</file><mountcalib_ref noderef="/courtyard/CALIBRATIONS/MOUNTING/Mounting_VZ400_D700_14mm_release"/>
+					<name>110428_122416_Image104</name><phi>210.491562</phi>
+					<raw_lambda>0</raw_lambda><raw_phi>0</raw_phi>
+					<text></text>
+					<theta>90</theta>
+					<tpl_image name="TPL (IMAGE)" kind="TPL_IMAGE"><active>1</active>
+					</tpl_image>
+				</scanposimage>
+				<scanposimage name="110428_122416_Image105" kind="ScanPosImageX"><camcalib_ref noderef="/courtyard/CALIBRATIONS/CAMERA/Calibration_VZ400_D700_14mm_release"/><cop name="COP" kind="COP"><freeze>0</freeze>
+						<matrix rows="4" cols="4"> 0.0085795319193660621 0.9999631951387232 -5.2556001374252602E-019 0   -0.9999631951387232 0.0085795319193660621 6.1255168174484698E-017 0   6.1257422745431002E-017 0 1 0   0 0 0 1   </matrix>
+					</cop>
+					<file>110428_122416_Image105.jpg</file><mountcalib_ref noderef="/courtyard/CALIBRATIONS/MOUNTING/Mounting_VZ400_D700_14mm_release"/>
+					<name>110428_122416_Image105</name><phi>270.491577</phi>
+					<raw_lambda>0</raw_lambda><raw_phi>0</raw_phi>
+					<text></text>
+					<theta>90</theta>
+					<tpl_image name="TPL (IMAGE)" kind="TPL_IMAGE"><active>1</active>
+					</tpl_image>
+				</scanposimage>
+				<scanposimage name="110428_122416_Image106" kind="ScanPosImageX"><camcalib_ref noderef="/courtyard/CALIBRATIONS/CAMERA/Calibration_VZ400_D700_14mm_release"/><cop name="COP" kind="COP"><freeze>0</freeze>
+						<matrix rows="4" cols="4"> 0.8702832957992736 0.49255150497461082 -5.3311311759063091E-017 0   -0.49255150497461082 0.8702832957992736 3.0172435764127994E-017 0   6.1257422745431002E-017 -3.0814879110195776E-033 1 0   0 0 0 1   </matrix>
+					</cop>
+					<file>110428_122416_Image106.jpg</file><mountcalib_ref noderef="/courtyard/CALIBRATIONS/MOUNTING/Mounting_VZ400_D700_14mm_release"/>
+					<name>110428_122416_Image106</name><phi>330.491577</phi>
+					<raw_lambda>0</raw_lambda><raw_phi>0</raw_phi>
+					<text></text>
+					<theta>90</theta>
+					<tpl_image name="TPL (IMAGE)" kind="TPL_IMAGE"><active>1</active>
+					</tpl_image>
+				</scanposimage>
+			</scanposimages><scanposundistimages name="UNDISTORTED IMAGES" kind="SCANPOSUNDISTIMAGES" fold="SCANPOSUNDISTIMAGES"/>
+			<scansequences name="SCANSEQUENCES" kind="SCANSEQUENCES" fold="SCANSEQUENCES"/>
+			<singlescans name="SINGLESCANS" kind="SINGLESCANS" fold="SINGLESCANS"><scan name="110428_123115" kind="ScanAcquiredX"><beamfocus>0</beamfocus>
+					<blurlimit>1</blurlimit>
+					<commandport></commandport><dataport></dataport>
+					<file>110428_123115.rxp</file><frame_count>1</frame_count>
+					<geometryinfo><intmax>0.10399023443460464</intmax>
+						<intmin>0.014053558930754662</intmin>
+						<maxcart length="3"> 354.27233886718752 364.44378662109376 24.326955795288086 </maxcart><maxpolar length="3"> 29.120794296264646 2.2703242301940918 6.2842321395874022 </maxpolar>
+						<mincart length="3"> -43.342769622802733 -348.22891235351565 -47.959011077880858 </mincart>
+						<minpolar length="3"> 1.4092597961425781 0.52359879016876218 0 </minpolar><reflmax>30.860000610351565</reflmax>
+						<reflmin>-39.610000610351565</reflmin>
+						<valid_cart>1</valid_cart>
+						<valid_int>1</valid_int>
+						<valid_refl>1</valid_refl>
+					</geometryinfo>
+					<instrument>VZ-400</instrument><laser_clock>0</laser_clock>
+					<laserattenuated>0</laserattenuated>
+					<measurementprogram>HIGH SPEED</measurementprogram>
+					<measurementprogramid>1</measurementprogramid>
+					<motion>0</motion>
+					<mta_autocalc_enabled>-1</mta_autocalc_enabled><mta_estmax_scanrange>-1</mta_estmax_scanrange>
+					<mta_manual_fixed_zone>-1</mta_manual_fixed_zone><mta_manual_range_max>3000</mta_manual_range_max>
+					<mta_manual_range_min>0</mta_manual_range_min>
+					<name>110428_123115</name><numtargets>0</numtargets><phi_count>6001</phi_count>
+					<phi_delta>0.059999998658895488</phi_delta>
+					<phi_start>0</phi_start>
+					<serialnumber>S9996063</serialnumber>
+					<settings></settings>
+					<text></text><theta_count>1668</theta_count>
+					<theta_delta>0.059999998658895488</theta_delta>
+					<theta_start>30</theta_start><time>1' 23"</time>
+					<type>1</type>
+					<wideninglensactivated>0</wideninglensactivated>
+				</scan>
+			</singlescans>
+			<sop name="SOP" kind="SOP"><freeze>0</freeze>
+				<matrix rows="4" cols="4"> -0.21797764120008666 -0.97570382169807206 0.022086200683313258 -65.183365036293517   0.97535795572394803 -0.21857941874750848 -0.029998265049874195 254.01123635077312   0.034097010761173293 0.015003000492518701 0.99930591103694246 27.543414094158448   0 0 0 1   </matrix>
+			</sop>
+			<text></text><tiepointscans name="TIEPOINTSCANS" kind="TIEPOINTSCANS" fold="TIEPOINTSCANS"><scan name="TP_003" kind="ScanAcquiredX"><beamfocus>0</beamfocus>
+					<blurlimit>1</blurlimit>
+					<commandport></commandport><dataport></dataport>
+					<file>TP_003.rxp</file><frame_count>1</frame_count>
+					<instrument>VZ-400</instrument><laser_clock>0</laser_clock>
+					<laserattenuated>0</laserattenuated>
+					<measurementprogram>REFLECTOR_HS</measurementprogram>
+					<measurementprogramid>4294967295</measurementprogramid>
+					<motion>0</motion>
+					<mta_autocalc_enabled>-1</mta_autocalc_enabled><mta_estmax_scanrange>-1</mta_estmax_scanrange>
+					<mta_manual_fixed_zone>-1</mta_manual_fixed_zone><mta_manual_range_max>3000</mta_manual_range_max>
+					<mta_manual_range_min>0</mta_manual_range_min>
+					<name>TP_003</name><numtargets>0</numtargets><phi_count>151</phi_count>
+					<phi_delta>0.004222</phi_delta>
+					<phi_start>38.518</phi_start>
+					<serialnumber>S9996063</serialnumber>
+					<settings></settings>
+					<text></text><theta_count>1017</theta_count>
+					<theta_delta>0.000625</theta_delta>
+					<theta_start>91.76</theta_start><time>0' 02"</time>
+					<type>1</type>
+					<wideninglensactivated>0</wideninglensactivated>
+				</scan>
+				<scan name="TP_005" kind="ScanAcquiredX"><beamfocus>0</beamfocus>
+					<blurlimit>1</blurlimit>
+					<commandport></commandport><dataport></dataport>
+					<file>TP_005.rxp</file><frame_count>1</frame_count>
+					<instrument>VZ-400</instrument><laser_clock>0</laser_clock>
+					<laserattenuated>0</laserattenuated>
+					<measurementprogram>REFLECTOR_HS</measurementprogram>
+					<measurementprogramid>4294967295</measurementprogramid>
+					<motion>0</motion>
+					<mta_autocalc_enabled>-1</mta_autocalc_enabled><mta_estmax_scanrange>-1</mta_estmax_scanrange>
+					<mta_manual_fixed_zone>-1</mta_manual_fixed_zone><mta_manual_range_max>3000</mta_manual_range_max>
+					<mta_manual_range_min>0</mta_manual_range_min>
+					<name>TP_005</name><numtargets>0</numtargets><phi_count>158</phi_count>
+					<phi_delta>0.006059</phi_delta>
+					<phi_start>77.137</phi_start>
+					<serialnumber>S9996063</serialnumber>
+					<settings></settings>
+					<text></text><theta_count>1523</theta_count>
+					<theta_delta>0.000625</theta_delta>
+					<theta_start>86.521</theta_start><time>0' 02"</time>
+					<type>1</type>
+					<wideninglensactivated>0</wideninglensactivated>
+				</scan>
+				<scan name="TP_006" kind="ScanAcquiredX"><beamfocus>0</beamfocus>
+					<blurlimit>1</blurlimit>
+					<commandport></commandport><dataport></dataport>
+					<file>TP_006.rxp</file><frame_count>1</frame_count>
+					<instrument>VZ-400</instrument><laser_clock>0</laser_clock>
+					<laserattenuated>0</laserattenuated>
+					<measurementprogram>REFLECTOR_HS</measurementprogram>
+					<measurementprogramid>4294967295</measurementprogramid>
+					<motion>0</motion>
+					<mta_autocalc_enabled>-1</mta_autocalc_enabled><mta_estmax_scanrange>-1</mta_estmax_scanrange>
+					<mta_manual_fixed_zone>-1</mta_manual_fixed_zone><mta_manual_range_max>3000</mta_manual_range_max>
+					<mta_manual_range_min>0</mta_manual_range_min>
+					<name>TP_006</name><numtargets>0</numtargets><phi_count>158</phi_count>
+					<phi_delta>0.006048</phi_delta>
+					<phi_start>202.018</phi_start>
+					<serialnumber>S9996063</serialnumber>
+					<settings></settings>
+					<text></text><theta_count>1519</theta_count>
+					<theta_delta>0.000625</theta_delta>
+					<theta_start>87.587</theta_start><time>0' 02"</time>
+					<type>1</type>
+					<wideninglensactivated>0</wideninglensactivated>
+				</scan>
+				<scan name="TP_004" kind="ScanAcquiredX"><beamfocus>0</beamfocus>
+					<blurlimit>1</blurlimit>
+					<commandport></commandport><dataport></dataport>
+					<file>TP_004.rxp</file><frame_count>1</frame_count>
+					<instrument>VZ-400</instrument><laser_clock>0</laser_clock>
+					<laserattenuated>0</laserattenuated>
+					<measurementprogram>REFLECTOR_HS</measurementprogram>
+					<measurementprogramid>4294967295</measurementprogramid>
+					<motion>0</motion>
+					<mta_autocalc_enabled>-1</mta_autocalc_enabled><mta_estmax_scanrange>-1</mta_estmax_scanrange>
+					<mta_manual_fixed_zone>-1</mta_manual_fixed_zone><mta_manual_range_max>3000</mta_manual_range_max>
+					<mta_manual_range_min>0</mta_manual_range_min>
+					<name>TP_004</name><numtargets>0</numtargets><phi_count>154</phi_count>
+					<phi_delta>0.0046889999999999994</phi_delta>
+					<phi_start>262.54700000000003</phi_start>
+					<serialnumber>S9996063</serialnumber>
+					<settings></settings>
+					<text></text><theta_count>1148</theta_count>
+					<theta_delta>0.000625</theta_delta>
+					<theta_start>85.871</theta_start><time>0' 02"</time>
+					<type>1</type>
+					<wideninglensactivated>0</wideninglensactivated>
+				</scan>
+				<scan name="TP_001" kind="ScanAcquiredX"><beamfocus>0</beamfocus>
+					<blurlimit>1</blurlimit>
+					<commandport></commandport><dataport></dataport>
+					<file>TP_001.rxp</file><frame_count>1</frame_count>
+					<instrument>VZ-400</instrument><laser_clock>0</laser_clock>
+					<laserattenuated>0</laserattenuated>
+					<measurementprogram>REFLECTOR_HS</measurementprogram>
+					<measurementprogramid>4294967295</measurementprogramid>
+					<motion>0</motion>
+					<mta_autocalc_enabled>-1</mta_autocalc_enabled><mta_estmax_scanrange>-1</mta_estmax_scanrange>
+					<mta_manual_fixed_zone>-1</mta_manual_fixed_zone><mta_manual_range_max>3000</mta_manual_range_max>
+					<mta_manual_range_min>0</mta_manual_range_min>
+					<name>TP_001</name><numtargets>0</numtargets><phi_count>146</phi_count>
+					<phi_delta>0.003517</phi_delta>
+					<phi_start>318.077</phi_start>
+					<serialnumber>S9996063</serialnumber>
+					<settings></settings>
+					<text></text><theta_count>814</theta_count>
+					<theta_delta>0.000625</theta_delta>
+					<theta_start>93.045</theta_start><time>0' 02"</time>
+					<type>1</type>
+					<wideninglensactivated>0</wideninglensactivated>
+				</scan>
+			</tiepointscans>
+			<tiltmount_position>-1</tiltmount_position><tol_socs name="TOL (SOCS)" kind="TOL_SOCS" fold="TIEOBJECTS"><active>1</active>
+			</tol_socs>
+			<tpl_socs name="TPL (SOCS)" kind="TPL_SOCS"><active>0</active>
+				<tp_socs name="TP_001" kind="TP_SOCSX"><accuracy length="3"> 0.0050500826910138131 0.001828345819376409 0.001828345819376409 </accuracy>
+					<active>1</active><direction length="3"> -0.74586807441418445 0.66356589578821658 0.057975145678626624 </direction><finescan_ref noderef="/courtyard/SCANS/ScanPos006_courtyard/TIEPOINTSCANS/TP_001"/>
+					<intensity>0.068565018475055693</intensity>
+					<linked_ref noderef="/courtyard/TPL (PRCS)/53"/>
+					<name>TP_001</name><pixels>9967</pixels><refl_ref noderef="/courtyard/CALIBRATIONS/REFLECTOR/RIEGL Flat 5cm"/>
+					<reflectivity>29.794258117675782</reflectivity>
+					<refltype>0.04770473763346672</refltype>
+					<vector length="3"> 9.7443283977871091 -8.6690989676518131 -0.75741124153137293 </vector>
+					<view>1</view>
+				</tp_socs><tp_socs name="TP_003" kind="TP_SOCSX"><accuracy length="3"> 0.0050526345148682592 0.0018236497417092323 0.0018236497417092323 </accuracy>
+					<active>1</active><direction length="3"> -0.77802427086411904 -0.6271548354158601 0.036810954359555322 </direction><finescan_ref noderef="/courtyard/SCANS/ScanPos006_courtyard/TIEPOINTSCANS/TP_003"/>
+					<intensity>0.069779261946678157</intensity>
+					<linked_ref noderef="/courtyard/TPL (PRCS)/52"/>
+					<name>TP_003</name><pixels>9024</pixels><refl_ref noderef="/courtyard/CALIBRATIONS/REFLECTOR/RIEGL Flat 5cm"/>
+					<reflectivity>28.631227493286134</reflectivity>
+					<refltype>0.03839937224984169</refltype>
+					<vector length="3"> 8.0907247678105549 6.5218241029558758 -0.38279950618744 </vector>
+					<view>1</view>
+				</tp_socs>
+				<tp_socs name="TP_004" kind="TP_SOCSX"><accuracy length="3"> 0.0050415527075529101 0.001844982267357409 0.001844982267357409 </accuracy>
+					<active>1</active><direction length="3"> 0.12305595141608717 0.99024874834430003 -0.065304281816956902 </direction><finescan_ref noderef="/courtyard/SCANS/ScanPos006_courtyard/TIEPOINTSCANS/TP_004"/>
+					<intensity>0.065472096204757696</intensity>
+					<linked_ref noderef="/courtyard/TPL (PRCS)/54"/>
+					<name>TP_004</name><pixels>14479</pixels><refl_ref noderef="/courtyard/CALIBRATIONS/REFLECTOR/RIEGL Flat 5cm"/>
+					<reflectivity>24.682739257812499</reflectivity>
+					<refltype>0.04589841142296791</refltype>
+					<vector length="3"> -1.1317508728075088 -9.1073608483522419 0.60060632228851405 </vector>
+					<view>1</view>
+				</tp_socs>
+				<tp_socs name="TP_005" kind="TP_SOCSX"><accuracy length="3"> 0.0050329375080764294 0.0018636301392689347 0.0018636301392689347 </accuracy>
+					<active>1</active><direction length="3"> -0.2140889543096585 -0.97545941557108314 -0.05142808781509993 </direction><finescan_ref noderef="/courtyard/SCANS/ScanPos006_courtyard/TIEPOINTSCANS/TP_005"/>
+					<intensity>0.067676559090614323</intensity>
+					<linked_ref noderef="/courtyard/TPL (PRCS)/51"/>
+					<name>TP_005</name><pixels>23044</pixels><refl_ref noderef="/courtyard/CALIBRATIONS/REFLECTOR/RIEGL Flat 5cm"/>
+					<reflectivity>24.561832427978515</reflectivity>
+					<refltype>0.04284980520606041</refltype>
+					<vector length="3"> 1.4796133357966128 6.7416023876951898 0.35543018579483066 </vector>
+					<view>1</view>
+				</tp_socs>
+			</tpl_socs>
+		</scanposition>
+		<scanposition name="ScanPos007_courtyard" kind="PositionX" fold="ScanPos007_courtyard"><name>ScanPos007_courtyard</name><polydata_objects name="POLYDATA" kind="POLYDATAOBJECTS" fold="POLYDATA"/>
+			<position_accuracy>2.480738380086415</position_accuracy><position_coordsys>2</position_coordsys>
+			<position_enabled>1</position_enabled>
+			<position_vector length="3"> 4129210.9180952845 1076333.5658840621 4725132.2082791578 </position_vector>
+			<ppm_air_pressure>1000</ppm_air_pressure><ppm_air_temperature>12</ppm_air_temperature><ppm_instrument>VZ-400</ppm_instrument>
+			<ppm_moisture_pressure>8.3999999999987763</ppm_moisture_pressure>
+			<ppm_total_geometric_correction>0</ppm_total_geometric_correction>
+			<profilescans name="PROFILESCANS" kind="PROFILESCANS" fold="PROFILESCANS"/>
+			<registered>1</registered><scanposimages name="SCANPOSIMAGES" kind="SCANPOSIMAGES" fold="SCANPOSIMAGES"><scanposimage name="110428_124237_Image001" kind="ScanPosImageX"><camcalib_ref noderef="/courtyard/CALIBRATIONS/CAMERA/Calibration_VZ400_D700_14mm_release"/><cop name="COP" kind="COP"><freeze>0</freeze>
+						<matrix rows="4" cols="4"> 0.86170389671994765 -0.5074114645705767 -5.2785759882759053E-017 0   0.5074114645705767 0.86170389671994765 -3.1082718591078106E-017 0   6.1257422745431002E-017 3.0814879110195776E-033 1 0   0 0 0 1   </matrix>
+					</cop>
+					<file>110428_124237_Image001.jpg</file><mountcalib_ref noderef="/courtyard/CALIBRATIONS/MOUNTING/Mounting_VZ400_D700_14mm_release"/>
+					<name>110428_124237_Image001</name><phi>30.491562</phi>
+					<raw_lambda>0</raw_lambda><raw_phi>0</raw_phi>
+					<text></text>
+					<theta>90</theta>
+					<tpl_image name="TPL (IMAGE)" kind="TPL_IMAGE"><active>1</active>
+					</tpl_image>
+				</scanposimage>
+				<scanposimage name="110428_124237_Image002" kind="ScanPosImageX"><camcalib_ref noderef="/courtyard/CALIBRATIONS/CAMERA/Calibration_VZ400_D700_14mm_release"/><cop name="COP" kind="COP"><freeze>0</freeze>
+						<matrix rows="4" cols="4"> -0.0085792701296132122 -0.99996319738480538 5.2554397717696518E-019 0   0.99996319738480538 -0.0085792701296132122 -6.1255168312073882E-017 0   6.1257422745431002E-017 9.6296497219361792E-035 1 0   0 0 0 1   </matrix>
+					</cop>
+					<file>110428_124237_Image002.jpg</file><mountcalib_ref noderef="/courtyard/CALIBRATIONS/MOUNTING/Mounting_VZ400_D700_14mm_release"/>
+					<name>110428_124237_Image002</name><phi>90.491562</phi>
+					<raw_lambda>0</raw_lambda><raw_phi>0</raw_phi>
+					<text></text>
+					<theta>90</theta>
+					<tpl_image name="TPL (IMAGE)" kind="TPL_IMAGE"><active>1</active>
+					</tpl_image>
+				</scanposimage>
+				<scanposimage name="110428_124237_Image003" kind="ScanPosImageX"><camcalib_ref noderef="/courtyard/CALIBRATIONS/CAMERA/Calibration_VZ400_D700_14mm_release"/><cop name="COP" kind="COP"><freeze>0</freeze>
+						<matrix rows="4" cols="4"> -0.8702831668495607 -0.4925517328142288 5.3311303859936019E-017 0   0.4925517328142288 -0.8702831668495607 -3.0172449720995789E-017 0   6.1257422745431002E-017 -3.0814879110195776E-033 1 0   0 0 0 1   </matrix>
+					</cop>
+					<file>110428_124237_Image003.jpg</file><mountcalib_ref noderef="/courtyard/CALIBRATIONS/MOUNTING/Mounting_VZ400_D700_14mm_release"/>
+					<name>110428_124237_Image003</name><phi>150.491562</phi>
+					<raw_lambda>0</raw_lambda><raw_phi>0</raw_phi>
+					<text></text>
+					<theta>90</theta>
+					<tpl_image name="TPL (IMAGE)" kind="TPL_IMAGE"><active>1</active>
+					</tpl_image>
+				</scanposimage>
+				<scanposimage name="110428_124237_Image004" kind="ScanPosImageX"><camcalib_ref noderef="/courtyard/CALIBRATIONS/CAMERA/Calibration_VZ400_D700_14mm_release"/><cop name="COP" kind="COP"><freeze>0</freeze>
+						<matrix rows="4" cols="4"> -0.8617038967199479 0.50741146457057626 5.2785759882759072E-017 0   -0.50741146457057626 -0.8617038967199479 3.1082718591078086E-017 0   6.1257422745431002E-017 -3.0814879110195776E-033 1 0   0 0 0 1   </matrix>
+					</cop>
+					<file>110428_124237_Image004.jpg</file><mountcalib_ref noderef="/courtyard/CALIBRATIONS/MOUNTING/Mounting_VZ400_D700_14mm_release"/>
+					<name>110428_124237_Image004</name><phi>210.491562</phi>
+					<raw_lambda>0</raw_lambda><raw_phi>0</raw_phi>
+					<text></text>
+					<theta>90</theta>
+					<tpl_image name="TPL (IMAGE)" kind="TPL_IMAGE"><active>1</active>
+					</tpl_image>
+				</scanposimage>
+				<scanposimage name="110428_124237_Image005" kind="ScanPosImageX"><camcalib_ref noderef="/courtyard/CALIBRATIONS/CAMERA/Calibration_VZ400_D700_14mm_release"/><cop name="COP" kind="COP"><freeze>0</freeze>
+						<matrix rows="4" cols="4"> 0.0085795319193660621 0.9999631951387232 -5.2556001374252602E-019 0   -0.9999631951387232 0.0085795319193660621 6.1255168174484698E-017 0   6.1257422745431002E-017 0 1 0   0 0 0 1   </matrix>
+					</cop>
+					<file>110428_124237_Image005.jpg</file><mountcalib_ref noderef="/courtyard/CALIBRATIONS/MOUNTING/Mounting_VZ400_D700_14mm_release"/>
+					<name>110428_124237_Image005</name><phi>270.491577</phi>
+					<raw_lambda>0</raw_lambda><raw_phi>0</raw_phi>
+					<text></text>
+					<theta>90</theta>
+					<tpl_image name="TPL (IMAGE)" kind="TPL_IMAGE"><active>1</active>
+					</tpl_image>
+				</scanposimage>
+				<scanposimage name="110428_124237_Image006" kind="ScanPosImageX"><camcalib_ref noderef="/courtyard/CALIBRATIONS/CAMERA/Calibration_VZ400_D700_14mm_release"/><cop name="COP" kind="COP"><freeze>0</freeze>
+						<matrix rows="4" cols="4"> 0.8702832957992736 0.49255150497461082 -5.3311311759063091E-017 0   -0.49255150497461082 0.8702832957992736 3.0172435764127994E-017 0   6.1257422745431002E-017 -3.0814879110195776E-033 1 0   0 0 0 1   </matrix>
+					</cop>
+					<file>110428_124237_Image006.jpg</file><mountcalib_ref noderef="/courtyard/CALIBRATIONS/MOUNTING/Mounting_VZ400_D700_14mm_release"/>
+					<name>110428_124237_Image006</name><phi>330.491577</phi>
+					<raw_lambda>0</raw_lambda><raw_phi>0</raw_phi>
+					<text></text>
+					<theta>90</theta>
+					<tpl_image name="TPL (IMAGE)" kind="TPL_IMAGE"><active>1</active>
+					</tpl_image>
+				</scanposimage>
+			</scanposimages><scanposundistimages name="UNDISTORTED IMAGES" kind="SCANPOSUNDISTIMAGES" fold="SCANPOSUNDISTIMAGES"><scanposundistimage name="110428_124237_Image001" kind="ScanPosUndistImageX"><camcalib_ref noderef="/courtyard/CALIBRATIONS/CAMERA/Calibration_VZ400_D700_14mm_release_undistorted"/><cop name="COP" kind="COP"><freeze>0</freeze>
+						<matrix rows="4" cols="4"> 0.86170389671994765 -0.5074114645705767 -5.2785759882759053E-017 0   0.5074114645705767 0.86170389671994765 -3.1082718591078106E-017 0   6.1257422745431002E-017 3.0814879110195776E-033 1 0   0 0 0 1   </matrix>
+					</cop>
+					<file>110428_124237_Image001.jpg</file><mountcalib_ref noderef="/courtyard/CALIBRATIONS/MOUNTING/Mounting_VZ400_D700_14mm_release"/>
+					<name>110428_124237_Image001</name><phi>30.491562</phi><raw_lambda>NAN</raw_lambda>
+					<raw_phi>NAN</raw_phi>
+					<source_image_ref noderef="/courtyard/SCANS/ScanPos007_courtyard/SCANPOSIMAGES/110428_124237_Image001"/>
+					<text></text>
+					<theta>90</theta>
+					<tpl_image name="TPL (IMAGE)" kind="TPL_IMAGE"><active>1</active>
+					</tpl_image>
+				</scanposundistimage>
+				<scanposundistimage name="110428_124237_Image002" kind="ScanPosUndistImageX"><camcalib_ref noderef="/courtyard/CALIBRATIONS/CAMERA/Calibration_VZ400_D700_14mm_release_undistorted"/><cop name="COP" kind="COP"><freeze>0</freeze>
+						<matrix rows="4" cols="4"> -0.0085792701296132122 -0.99996319738480538 5.2554397717696518E-019 0   0.99996319738480538 -0.0085792701296132122 -6.1255168312073882E-017 0   6.1257422745431002E-017 9.6296497219361792E-035 1 0   0 0 0 1   </matrix>
+					</cop>
+					<file>110428_124237_Image002.jpg</file><mountcalib_ref noderef="/courtyard/CALIBRATIONS/MOUNTING/Mounting_VZ400_D700_14mm_release"/>
+					<name>110428_124237_Image002</name><phi>90.491562</phi><raw_lambda>NAN</raw_lambda>
+					<raw_phi>NAN</raw_phi>
+					<source_image_ref noderef="/courtyard/SCANS/ScanPos007_courtyard/SCANPOSIMAGES/110428_124237_Image002"/>
+					<text></text>
+					<theta>90</theta>
+					<tpl_image name="TPL (IMAGE)" kind="TPL_IMAGE"><active>1</active>
+					</tpl_image>
+				</scanposundistimage>
+				<scanposundistimage name="110428_124237_Image003" kind="ScanPosUndistImageX"><camcalib_ref noderef="/courtyard/CALIBRATIONS/CAMERA/Calibration_VZ400_D700_14mm_release_undistorted"/><cop name="COP" kind="COP"><freeze>0</freeze>
+						<matrix rows="4" cols="4"> -0.8702831668495607 -0.4925517328142288 5.3311303859936019E-017 0   0.4925517328142288 -0.8702831668495607 -3.0172449720995789E-017 0   6.1257422745431002E-017 -3.0814879110195776E-033 1 0   0 0 0 1   </matrix>
+					</cop>
+					<file>110428_124237_Image003.jpg</file><mountcalib_ref noderef="/courtyard/CALIBRATIONS/MOUNTING/Mounting_VZ400_D700_14mm_release"/>
+					<name>110428_124237_Image003</name><phi>150.491562</phi><raw_lambda>NAN</raw_lambda>
+					<raw_phi>NAN</raw_phi>
+					<source_image_ref noderef="/courtyard/SCANS/ScanPos007_courtyard/SCANPOSIMAGES/110428_124237_Image003"/>
+					<text></text>
+					<theta>90</theta>
+					<tpl_image name="TPL (IMAGE)" kind="TPL_IMAGE"><active>1</active>
+					</tpl_image>
+				</scanposundistimage>
+				<scanposundistimage name="110428_124237_Image004" kind="ScanPosUndistImageX"><camcalib_ref noderef="/courtyard/CALIBRATIONS/CAMERA/Calibration_VZ400_D700_14mm_release_undistorted"/><cop name="COP" kind="COP"><freeze>0</freeze>
+						<matrix rows="4" cols="4"> -0.8617038967199479 0.50741146457057626 5.2785759882759072E-017 0   -0.50741146457057626 -0.8617038967199479 3.1082718591078086E-017 0   6.1257422745431002E-017 -3.0814879110195776E-033 1 0   0 0 0 1   </matrix>
+					</cop>
+					<file>110428_124237_Image004.jpg</file><mountcalib_ref noderef="/courtyard/CALIBRATIONS/MOUNTING/Mounting_VZ400_D700_14mm_release"/>
+					<name>110428_124237_Image004</name><phi>210.491562</phi><raw_lambda>NAN</raw_lambda>
+					<raw_phi>NAN</raw_phi>
+					<source_image_ref noderef="/courtyard/SCANS/ScanPos007_courtyard/SCANPOSIMAGES/110428_124237_Image004"/>
+					<text></text>
+					<theta>90</theta>
+					<tpl_image name="TPL (IMAGE)" kind="TPL_IMAGE"><active>1</active>
+					</tpl_image>
+				</scanposundistimage>
+				<scanposundistimage name="110428_124237_Image005" kind="ScanPosUndistImageX"><camcalib_ref noderef="/courtyard/CALIBRATIONS/CAMERA/Calibration_VZ400_D700_14mm_release_undistorted"/><cop name="COP" kind="COP"><freeze>0</freeze>
+						<matrix rows="4" cols="4"> 0.0085795319193660621 0.9999631951387232 -5.2556001374252602E-019 0   -0.9999631951387232 0.0085795319193660621 6.1255168174484698E-017 0   6.1257422745431002E-017 0 1 0   0 0 0 1   </matrix>
+					</cop>
+					<file>110428_124237_Image005.jpg</file><mountcalib_ref noderef="/courtyard/CALIBRATIONS/MOUNTING/Mounting_VZ400_D700_14mm_release"/>
+					<name>110428_124237_Image005</name><phi>270.491577</phi><raw_lambda>NAN</raw_lambda>
+					<raw_phi>NAN</raw_phi>
+					<source_image_ref noderef="/courtyard/SCANS/ScanPos007_courtyard/SCANPOSIMAGES/110428_124237_Image005"/>
+					<text></text>
+					<theta>90</theta>
+					<tpl_image name="TPL (IMAGE)" kind="TPL_IMAGE"><active>1</active>
+					</tpl_image>
+				</scanposundistimage>
+				<scanposundistimage name="110428_124237_Image006" kind="ScanPosUndistImageX"><camcalib_ref noderef="/courtyard/CALIBRATIONS/CAMERA/Calibration_VZ400_D700_14mm_release_undistorted"/><cop name="COP" kind="COP"><freeze>0</freeze>
+						<matrix rows="4" cols="4"> 0.8702832957992736 0.49255150497461082 -5.3311311759063091E-017 0   -0.49255150497461082 0.8702832957992736 3.0172435764127994E-017 0   6.1257422745431002E-017 -3.0814879110195776E-033 1 0   0 0 0 1   </matrix>
+					</cop>
+					<file>110428_124237_Image006.jpg</file><mountcalib_ref noderef="/courtyard/CALIBRATIONS/MOUNTING/Mounting_VZ400_D700_14mm_release"/>
+					<name>110428_124237_Image006</name><phi>330.491577</phi><raw_lambda>NAN</raw_lambda>
+					<raw_phi>NAN</raw_phi>
+					<source_image_ref noderef="/courtyard/SCANS/ScanPos007_courtyard/SCANPOSIMAGES/110428_124237_Image006"/>
+					<text></text>
+					<theta>90</theta>
+					<tpl_image name="TPL (IMAGE)" kind="TPL_IMAGE"><active>1</active>
+					</tpl_image>
+				</scanposundistimage>
+			</scanposundistimages>
+			<scansequences name="SCANSEQUENCES" kind="SCANSEQUENCES" fold="SCANSEQUENCES"/>
+			<singlescans name="SINGLESCANS" kind="SINGLESCANS" fold="SINGLESCANS"><scan name="110428_124237" kind="ScanAcquiredX"><beamfocus>0</beamfocus>
+					<blurlimit>1</blurlimit>
+					<commandport></commandport><dataport></dataport>
+					<file>110428_124237.rxp</file><frame_count>1</frame_count>
+					<geometryinfo><intmax>0</intmax>
+						<intmin>1</intmin>
+						<maxcart length="3"> 240.66821289062499 204.81651306152342 319.14923095703123 </maxcart><maxpolar length="3"> 0 2.2703242301940918 6.2842321395874022 </maxpolar>
+						<mincart length="3"> -381.63562011718752 -321.24472045898438 -1.6709382534027101 </mincart>
+						<minpolar length="3"> INF 0.52359879016876218 0 </minpolar><reflmax>-INF</reflmax>
+						<reflmin>INF</reflmin>
+						<valid_cart>1</valid_cart>
+						<valid_int>0</valid_int>
+						<valid_refl>0</valid_refl>
+					</geometryinfo>
+					<instrument>VZ-400</instrument><laser_clock>0</laser_clock>
+					<laserattenuated>0</laserattenuated>
+					<measurementprogram>HIGH SPEED</measurementprogram>
+					<measurementprogramid>1</measurementprogramid>
+					<motion>0</motion>
+					<mta_autocalc_enabled>-1</mta_autocalc_enabled><mta_estmax_scanrange>-1</mta_estmax_scanrange>
+					<mta_manual_fixed_zone>-1</mta_manual_fixed_zone><mta_manual_range_max>3000</mta_manual_range_max>
+					<mta_manual_range_min>0</mta_manual_range_min>
+					<name>110428_124237</name><numtargets>0</numtargets><phi_count>6001</phi_count>
+					<phi_delta>0.059999998658895488</phi_delta>
+					<phi_start>0</phi_start>
+					<serialnumber>S9996063</serialnumber>
+					<settings></settings>
+					<text></text><theta_count>1668</theta_count>
+					<theta_delta>0.059999998658895488</theta_delta>
+					<theta_start>30</theta_start><time>1' 23"</time>
+					<type>1</type>
+					<wideninglensactivated>0</wideninglensactivated>
+				</scan>
+			</singlescans>
+			<sop name="SOP" kind="SOP"><freeze>0</freeze>
+				<matrix rows="4" cols="4"> 0.99890539408650381 -0.042091144544900832 0.020404637114833795 -62.151181630078707   0.041991369530011686 0.99910394751193242 0.0052940486463653459 262.33061338555229   -0.02060918605578081 -0.004431435092196096 0.99977778722731264 27.015516758873482   0 0 0 1   </matrix>
+			</sop>
+			<text></text><tiepointscans name="TIEPOINTSCANS" kind="TIEPOINTSCANS" fold="TIEPOINTSCANS"><scan name="tp001" kind="ScanAcquiredX"><beamfocus>0</beamfocus>
+					<blurlimit>1</blurlimit>
+					<commandport></commandport><dataport></dataport>
+					<file>tp001.rxp</file><frame_count>1</frame_count>
+					<instrument>VZ-400</instrument><laser_clock>0</laser_clock>
+					<laserattenuated>0</laserattenuated>
+					<measurementprogram>REFLECTOR_HS</measurementprogram>
+					<measurementprogramid>4294967295</measurementprogramid>
+					<motion>0</motion>
+					<mta_autocalc_enabled>-1</mta_autocalc_enabled><mta_estmax_scanrange>-1</mta_estmax_scanrange>
+					<mta_manual_fixed_zone>-1</mta_manual_fixed_zone><mta_manual_range_max>3000</mta_manual_range_max>
+					<mta_manual_range_min>0</mta_manual_range_min>
+					<name>tp001</name><numtargets>0</numtargets><phi_count>146</phi_count>
+					<phi_delta>0.003527</phi_delta>
+					<phi_start>217.425</phi_start>
+					<serialnumber>S9996063</serialnumber>
+					<settings></settings>
+					<text></text><theta_count>819</theta_count>
+					<theta_delta>0.000625</theta_delta>
+					<theta_start>86.248</theta_start><time>0' 02"</time>
+					<type>1</type>
+					<wideninglensactivated>0</wideninglensactivated>
+				</scan>
+				<scan name="TP_001" kind="ScanAcquiredX"><beamfocus>0</beamfocus>
+					<blurlimit>1</blurlimit>
+					<commandport></commandport><dataport></dataport>
+					<file>TP_001.rxp</file><frame_count>1</frame_count>
+					<instrument>VZ-400</instrument><laser_clock>0</laser_clock>
+					<laserattenuated>0</laserattenuated>
+					<measurementprogram>REFLECTOR_HS</measurementprogram>
+					<measurementprogramid>4294967295</measurementprogramid>
+					<motion>0</motion>
+					<mta_autocalc_enabled>-1</mta_autocalc_enabled><mta_estmax_scanrange>-1</mta_estmax_scanrange>
+					<mta_manual_fixed_zone>-1</mta_manual_fixed_zone><mta_manual_range_max>3000</mta_manual_range_max>
+					<mta_manual_range_min>0</mta_manual_range_min>
+					<name>TP_001</name><numtargets>0</numtargets><phi_count>150</phi_count>
+					<phi_delta>0.003934</phi_delta>
+					<phi_start>186.594</phi_start>
+					<serialnumber>S9996063</serialnumber>
+					<settings></settings>
+					<text></text><theta_count>935</theta_count>
+					<theta_delta>0.000625</theta_delta>
+					<theta_start>88.256</theta_start><time>0' 02"</time>
+					<type>1</type>
+					<wideninglensactivated>0</wideninglensactivated>
+				</scan>
+				<scan name="TP_002" kind="ScanAcquiredX"><beamfocus>0</beamfocus>
+					<blurlimit>1</blurlimit>
+					<commandport></commandport><dataport></dataport>
+					<file>TP_002.rxp</file><frame_count>1</frame_count>
+					<instrument>VZ-400</instrument><laser_clock>0</laser_clock>
+					<laserattenuated>0</laserattenuated>
+					<measurementprogram>REFLECTOR_HS</measurementprogram>
+					<measurementprogramid>4294967295</measurementprogramid>
+					<motion>0</motion>
+					<mta_autocalc_enabled>-1</mta_autocalc_enabled><mta_estmax_scanrange>-1</mta_estmax_scanrange>
+					<mta_manual_fixed_zone>-1</mta_manual_fixed_zone><mta_manual_range_max>3000</mta_manual_range_max>
+					<mta_manual_range_min>0</mta_manual_range_min>
+					<name>TP_002</name><numtargets>0</numtargets><phi_count>161</phi_count>
+					<phi_delta>0.009089</phi_delta>
+					<phi_start>40.15</phi_start>
+					<serialnumber>S9996063</serialnumber>
+					<settings></settings>
+					<text></text><theta_count>1556</theta_count>
+					<theta_delta>0.000937</theta_delta>
+					<theta_start>88.553</theta_start><time>0' 03"</time>
+					<type>1</type>
+					<wideninglensactivated>0</wideninglensactivated>
+				</scan>
+				<scan name="TP_003" kind="ScanAcquiredX"><beamfocus>0</beamfocus>
+					<blurlimit>1</blurlimit>
+					<commandport></commandport><dataport></dataport>
+					<file>TP_003.rxp</file><frame_count>1</frame_count>
+					<instrument>VZ-400</instrument><laser_clock>0</laser_clock>
+					<laserattenuated>0</laserattenuated>
+					<measurementprogram>REFLECTOR_HS</measurementprogram>
+					<measurementprogramid>4294967295</measurementprogramid>
+					<motion>0</motion>
+					<mta_autocalc_enabled>-1</mta_autocalc_enabled><mta_estmax_scanrange>-1</mta_estmax_scanrange>
+					<mta_manual_fixed_zone>-1</mta_manual_fixed_zone><mta_manual_range_max>3000</mta_manual_range_max>
+					<mta_manual_range_min>0</mta_manual_range_min>
+					<name>TP_003</name><numtargets>0</numtargets><phi_count>153</phi_count>
+					<phi_delta>0.004491</phi_delta>
+					<phi_start>306.517</phi_start>
+					<serialnumber>S9996063</serialnumber>
+					<settings></settings>
+					<text></text><theta_count>1094</theta_count>
+					<theta_delta>0.000625</theta_delta>
+					<theta_start>83.459</theta_start><time>0' 02"</time>
+					<type>1</type>
+					<wideninglensactivated>0</wideninglensactivated>
+				</scan>
+			</tiepointscans>
+			<tiltmount_position>-1</tiltmount_position><tol_socs name="TOL (SOCS)" kind="TOL_SOCS" fold="TIEOBJECTS"><active>1</active>
+			</tol_socs>
+			<tpl_socs name="TPL (SOCS)" kind="TPL_SOCS"><active>0</active>
+				<tp_socs name="TP_001" kind="TP_SOCSX"><accuracy length="3"> 0.0050616296939551827 0.0018079432193189859 0.0018079432193189859 </accuracy>
+					<active>1</active><direction length="3"> 0.99242322197096243 0.12033371385721605 -0.02481825542023024 </direction><finescan_ref noderef="/courtyard/SCANS/ScanPos007_courtyard/TIEPOINTSCANS/TP_001"/>
+					<intensity>0.068986184895038605</intensity>
+					<linked_ref noderef="/courtyard/TPL (PRCS)/52"/>
+					<name>TP_001</name><pixels>6582</pixels><refl_ref noderef="/courtyard/CALIBRATIONS/REFLECTOR/RIEGL Flat 5cm"/>
+					<reflectivity>29.00986862182617</reflectivity>
+					<refltype>0.035858444869518278</refltype>
+					<vector length="3"> -11.23965081241704 -1.3628341011323637 0.28107818961143421 </vector>
+					<view>1</view>
+				</tp_socs>
+				<tp_socs name="TP_002" kind="TP_SOCSX"><accuracy length="3"> 0.0050404160283505914 0.0018473240779712797 0.0018473240779712797 </accuracy>
+					<active>1</active><direction length="3"> -0.7546359823310487 -0.65602519181975155 -0.012469236909756541 </direction><finescan_ref noderef="/courtyard/SCANS/ScanPos007_courtyard/TIEPOINTSCANS/TP_002"/>
+					<intensity>0.064316466450691226</intensity>
+					<linked_ref noderef="/courtyard/TPL (PRCS)/53"/>
+					<name>TP_002</name><pixels>15305</pixels><refl_ref noderef="/courtyard/CALIBRATIONS/REFLECTOR/RIEGL Flat 5cm"/>
+					<reflectivity>25.331687927246093</reflectivity>
+					<refltype>0.042705126106739053</refltype>
+					<vector length="3"> 3.4070164567147578 2.9618104183063232 0.056295879185199968 </vector>
+					<view>1</view>
+				</tp_socs>
+				<tp_socs name="TP_003" kind="TP_SOCSX"><accuracy length="3"> 0.0050787427462637427 0.0017809553537517786 0.0017809553537517786 </accuracy>
+					<active>1</active><direction length="3"> -0.5962107496464329 0.79563932407511667 -0.10719518641865194 </direction><finescan_ref noderef="/courtyard/SCANS/ScanPos007_courtyard/TIEPOINTSCANS/TP_003"/>
+					<intensity>0.061511114239692685</intensity>
+					<linked_ref noderef="/courtyard/TPL (PRCS)/54"/>
+					<name>TP_003</name><pixels>4032</pixels><refl_ref noderef="/courtyard/CALIBRATIONS/REFLECTOR/RIEGL Flat 5cm"/>
+					<reflectivity>22.515634536743165</reflectivity>
+					<refltype>0.045530807226896288</refltype>
+					<vector length="3"> 5.7755865934829402 -7.707482346635913 1.0384165048599254 </vector>
+					<view>1</view>
+				</tp_socs>
+				<tp_socs name="tp001" kind="TP_SOCSX"><accuracy length="3"> 0.0050749196670949459 0.0017867076676338912 0.0017867076676338912 </accuracy>
+					<active>1</active><direction length="3"> 0.78982293152342861 0.61034361174638246 -0.060501342465421888 </direction>
+					<finescan_ref noderef="/courtyard/SCANS/ScanPos007_courtyard/TIEPOINTSCANS/tp001"/>
+					<intensity>0.038944270461797715</intensity>
+					<linked_ref noderef="/courtyard/TPL (PRCS)/51"/>
+					<name>tp001</name><pixels>4454</pixels><refl_ref noderef="/courtyard/CALIBRATIONS/REFLECTOR/RIEGL Flat 5cm"/>
+					<reflectivity>10.363051414489746</reflectivity>
+					<refltype>0.033511199057102202</refltype>
+					<vector length="3"> -10.28515007668145 -7.9479520972056461 0.78785425424575731 </vector>
+					<view>1</view>
+				</tp_socs>
+			</tpl_socs>
+		</scanposition>
+	</scanpositions>
+	<snapshot_ip_addr>192.168.0.116</snapshot_ip_addr><snapshot_ip_port>20003</snapshot_ip_port>
+	<snapshot_ip_timeout>15000</snapshot_ip_timeout>
+	<snapshot_mode>local</snapshot_mode>
+	<text>Courtyard Refurbishment
+</text>
+	<timesyncepoch>2011-04-28T11:01:40.099</timesyncepoch><tol_prcs name="TOL (PRCS)" kind="TOL_PRCS" fold="TIEOBJECTS"><active>1</active>
+	</tol_prcs><tpl_glcs name="TPL (GLCS)" kind="TPL_GLCS"><active>1</active>
+		<tp_glcs name="54" kind="TP_GLCSX"><active>1</active><height>0</height>
+			<name>54</name><referrer_ref noderef="/courtyard/TPL (PRCS)/54"/>
+			<refl_ref noderef="/courtyard/CALIBRATIONS/REFLECTOR/RIEGL Flat 5cm"/>
+			<vector length="3"> -128356.03689099998 330654.879979 127.968536 </vector>
+			<view>1</view>
+		</tp_glcs><tp_glcs name="53" kind="TP_GLCSX"><active>1</active><height>0</height>
+			<name>53</name><referrer_ref noderef="/courtyard/TPL (PRCS)/53"/>
+			<refl_ref noderef="/courtyard/CALIBRATIONS/REFLECTOR/RIEGL Flat 5cm"/>
+			<vector length="3"> -128358.86654299998 330665.433189 126.988553 </vector>
+			<view>1</view>
+		</tp_glcs>
+		<tp_glcs name="52" kind="TP_GLCSX"><active>1</active><height>0</height>
+			<name>52</name><referrer_ref noderef="/courtyard/TPL (PRCS)/52"/>
+			<refl_ref noderef="/courtyard/CALIBRATIONS/REFLECTOR/RIEGL Flat 5cm"/>
+			<vector length="3"> -128373.31805 330660.493139 127.53448 </vector>
+			<view>1</view>
+		</tp_glcs>
+		<tp_glcs name="51" kind="TP_GLCSX"><active>1</active><height>0</height>
+			<name>51</name><referrer_ref noderef="/courtyard/TPL (PRCS)/51"/>
+			<refl_ref noderef="/courtyard/CALIBRATIONS/REFLECTOR/RIEGL Flat 5cm"/>
+			<vector length="3"> -128372.07612899998 330653.965471 128.05031500000002 </vector>
+			<view>1</view>
+		</tp_glcs>
+		<tp_glcs name="10011" kind="TP_GLCSX"><active>1</active><height>0</height>
+			<name>10011</name><referrer_ref noderef="/courtyard/TPL (PRCS)/10011"/>
+			<vector length="3"> -128375.82170299998 330638.498485 126.011341 </vector>
+			<view>1</view>
+		</tp_glcs>
+		<tp_glcs name="10010" kind="TP_GLCSX"><active>1</active><height>0</height>
+			<name>10010</name><referrer_ref noderef="/courtyard/TPL (PRCS)/10010"/>
+			<vector length="3"> -128367.79273499998 330626.599933 125.686038 </vector>
+			<view>1</view>
+		</tp_glcs>
+		<tp_glcs name="10006" kind="TP_GLCSX"><active>1</active><height>0</height>
+			<name>10006</name><referrer_ref noderef="/courtyard/TPL (PRCS)/10006"/>
+			<vector length="3"> -128369.78098900002 330635.786819 126.014372 </vector>
+			<view>1</view>
+		</tp_glcs>
+		<tp_glcs name="43" kind="TP_GLCSX"><active>1</active><height>0</height>
+			<name>43</name><referrer_ref noderef="/courtyard/TPL (PRCS)/43"/>
+			<vector length="3"> -128351.77717 330641.509946 130.227033 </vector>
+			<view>1</view>
+		</tp_glcs>
+		<tp_glcs name="41" kind="TP_GLCSX"><active>1</active><height>0</height>
+			<name>41</name><referrer_ref noderef="/courtyard/TPL (PRCS)/41"/>
+			<vector length="3"> -128353.678686 330636.404828 130.180399 </vector>
+			<view>1</view>
+		</tp_glcs>
+		<tp_glcs name="33" kind="TP_GLCSX"><active>1</active><height>0</height>
+			<name>33</name><referrer_ref noderef="/courtyard/TPL (PRCS)/33"/>
+			<vector length="3"> -128351.79460900002 330641.354449 127.469577 </vector>
+			<view>1</view>
+		</tp_glcs>
+		<tp_glcs name="32" kind="TP_GLCSX"><active>1</active><height>0</height>
+			<name>32</name><referrer_ref noderef="/courtyard/TPL (PRCS)/32"/>
+			<vector length="3"> -128353.678278 330636.40498 130.18050299999998 </vector>
+			<view>1</view>
+		</tp_glcs>
+		<tp_glcs name="31" kind="TP_GLCSX"><active>1</active><height>0</height>
+			<name>31</name><referrer_ref noderef="/courtyard/TPL (PRCS)/31"/>
+			<vector length="3"> -128353.678324 330636.404942 130.180518 </vector>
+			<view>1</view>
+		</tp_glcs>
+		<tp_glcs name="90003" kind="TP_GLCSX"><active>1</active><height>0</height>
+			<name>90003</name><referrer_ref noderef="/courtyard/TPL (PRCS)/90003"/>
+			<vector length="3"> -128346.742466 330627.154066 127.904525 </vector>
+			<view>1</view>
+		</tp_glcs>
+		<tp_glcs name="A10003" kind="TP_GLCSX"><active>1</active><height>0</height>
+			<name>A10003</name><referrer_ref noderef="/courtyard/TPL (PRCS)/A10003"/>
+			<vector length="3"> -128375.38968900002 330318.194083 132.454484 </vector>
+			<view>1</view>
+		</tp_glcs>
+		<tp_glcs name="A10002" kind="TP_GLCSX"><active>1</active><height>0</height>
+			<name>A10002</name><referrer_ref noderef="/courtyard/TPL (PRCS)/A10002"/>
+			<vector length="3"> -128375.39010899998 330318.194166 132.458673 </vector>
+			<view>1</view>
+		</tp_glcs>
+		<tp_glcs name="10009" kind="TP_GLCSX"><active>1</active><height>0</height>
+			<name>10009</name><referrer_ref noderef="/courtyard/TPL (PRCS)/10009"/>
+			<vector length="3"> -128347.545092 330629.582639 126.281555 </vector>
+			<view>1</view>
+		</tp_glcs>
+		<tp_glcs name="10008" kind="TP_GLCSX"><active>1</active><height>0</height>
+			<name>10008</name><referrer_ref noderef="/courtyard/TPL (PRCS)/10008"/>
+			<vector length="3"> -128362.13012699998 330631.742104 126.05825 </vector>
+			<view>1</view>
+		</tp_glcs>
+		<tp_glcs name="10007" kind="TP_GLCSX"><active>1</active><height>0</height>
+			<name>10007</name><referrer_ref noderef="/courtyard/TPL (PRCS)/10007"/>
+			<vector length="3"> -128380.358152 330627.557465 125.397984 </vector>
+			<view>1</view>
+		</tp_glcs>
+		<tp_glcs name="114" kind="TP_GLCSX"><active>1</active><height>0</height>
+			<name>114</name><referrer_ref noderef="/courtyard/TPL (PRCS)/114"/>
+			<vector length="3"> -128360.30303500002 330637.049035 127.202323 </vector>
+			<view>1</view>
+		</tp_glcs>
+		<tp_glcs name="112" kind="TP_GLCSX"><active>1</active><height>0</height>
+			<name>112</name><referrer_ref noderef="/courtyard/TPL (PRCS)/112"/>
+			<vector length="3"> -128364.94932499998 330638.695082 127.722471 </vector>
+			<view>1</view>
+		</tp_glcs>
+		<tp_glcs name="19" kind="TP_GLCSX"><active>1</active><height>0</height>
+			<name>19</name><referrer_ref noderef="/courtyard/TPL (PRCS)/19"/>
+			<vector length="3"> -128371.48547 330641.245262 127.81057 </vector>
+			<view>1</view>
+		</tp_glcs>
+		<tp_glcs name="17" kind="TP_GLCSX"><active>1</active><height>0</height>
+			<name>17</name><referrer_ref noderef="/courtyard/TPL (PRCS)/17"/>
+			<vector length="3"> -128375.61164899998 330642.946801 127.311249 </vector>
+			<view>1</view>
+		</tp_glcs>
+		<tp_glcs name="14" kind="TP_GLCSX"><active>1</active><height>0</height>
+			<name>14</name><referrer_ref noderef="/courtyard/TPL (PRCS)/14"/>
+			<vector length="3"> -128382.09319 330645.437074 127.325836 </vector>
+			<view>1</view>
+		</tp_glcs>
+		<tp_glcs name="12" kind="TP_GLCSX"><active>1</active><height>0</height>
+			<name>12</name><referrer_ref noderef="/courtyard/TPL (PRCS)/12"/>
+			<vector length="3"> -128386.402014 330647.073238 127.317342 </vector>
+			<view>1</view>
+		</tp_glcs>
+		<tp_glcs name="11" kind="TP_GLCSX"><active>1</active><height>0</height>
+			<name>11</name><referrer_ref noderef="/courtyard/TPL (PRCS)/11"/>
+			<vector length="3"> -128388.70589899998 330647.954775 127.169713 </vector>
+			<view>1</view>
+		</tp_glcs>
+		<tp_glcs name="214" kind="TP_GLCSX"><active>1</active><height>0</height>
+			<name>214</name><referrer_ref noderef="/courtyard/TPL (PRCS)/214"/>
+			<vector length="3"> -128360.46367500002 330637.055937 130.194537 </vector>
+			<view>1</view>
+		</tp_glcs>
+		<tp_glcs name="212" kind="TP_GLCSX"><active>1</active><height>0</height>
+			<name>212</name><referrer_ref noderef="/courtyard/TPL (PRCS)/212"/>
+			<vector length="3"> -128364.75796499998 330638.752573 130.18856600000002 </vector>
+			<view>1</view>
+		</tp_glcs>
+		<tp_glcs name="210" kind="TP_GLCSX"><active>1</active><height>0</height>
+			<name>210</name><referrer_ref noderef="/courtyard/TPL (PRCS)/210"/>
+			<vector length="3"> -128369.232312 330640.498675 130.072892 </vector>
+			<view>1</view>
+		</tp_glcs>
+		<tp_glcs name="27" kind="TP_GLCSX"><active>1</active><height>0</height>
+			<name>27</name><referrer_ref noderef="/courtyard/TPL (PRCS)/27"/>
+			<vector length="3"> -128375.637644 330642.9427 130.19691900000002 </vector>
+			<view>1</view>
+		</tp_glcs>
+		<tp_glcs name="24" kind="TP_GLCSX"><active>1</active><height>0</height>
+			<name>24</name><referrer_ref noderef="/courtyard/TPL (PRCS)/24"/>
+			<vector length="3"> -128382.10953899998 330645.42823 130.06660400000002 </vector>
+			<view>1</view>
+		</tp_glcs>
+		<tp_glcs name="22" kind="TP_GLCSX"><active>1</active><height>0</height>
+			<name>22</name><referrer_ref noderef="/courtyard/TPL (PRCS)/22"/>
+			<vector length="3"> -128386.41699300002 330647.081171 130.16692599999998 </vector>
+			<view>1</view>
+		</tp_glcs>
+		<tp_glcs name="21" kind="TP_GLCSX"><active>1</active><height>0</height>
+			<name>21</name><referrer_ref noderef="/courtyard/TPL (PRCS)/21"/>
+			<vector length="3"> -128388.54487699998 330647.906584 130.152253 </vector>
+			<view>1</view>
+		</tp_glcs>
+		<tp_glcs name="90001" kind="TP_GLCSX"><active>1</active><height>0</height>
+			<name>90001</name><referrer_ref noderef="/courtyard/TPL (PRCS)/90001"/>
+			<vector length="3"> -128380.206208 330635.889156 126.9783 </vector>
+			<view>1</view>
+		</tp_glcs>
+		<tp_glcs name="10005" kind="TP_GLCSX"><active>1</active><height>0</height>
+			<name>10005</name><referrer_ref noderef="/courtyard/TPL (PRCS)/10005"/>
+			<vector length="3"> -128398.221 330664.699 124.8 </vector>
+			<view>1</view>
+		</tp_glcs>
+		<tp_glcs name="10004" kind="TP_GLCSX"><active>1</active><height>0</height>
+			<name>10004</name><referrer_ref noderef="/courtyard/TPL (PRCS)/10004"/>
+			<vector length="3"> -128363.199 330655.949 125.896 </vector>
+			<view>1</view>
+		</tp_glcs>
+		<tp_glcs name="10003" kind="TP_GLCSX"><active>1</active><height>0</height>
+			<name>10003</name><referrer_ref noderef="/courtyard/TPL (PRCS)/10003"/>
+			<vector length="3"> -128376.755 330494.374 109.989 </vector>
+			<view>1</view>
+		</tp_glcs>
+		<tp_glcs name="10002" kind="TP_GLCSX"><active>1</active><height>0</height>
+			<name>10002</name><referrer_ref noderef="/courtyard/TPL (PRCS)/10002"/>
+			<vector length="3"> -128375.388 330318.161 132.445 </vector>
+			<view>1</view>
+		</tp_glcs>
+	</tpl_glcs>
+	<tpl_prcs name="TPL (PRCS)" kind="TPL_PRCS"><active>1</active>
+		<tp_prcs name="11" kind="TP_PRCSX"><active>1</active><fixed>1</fixed><height>0</height>
+			<linked_ref noderef="/courtyard/TPL (GLCS)/11"/>
+			<name>11</name><vector length="3"> -88.705898999993242 247.95477499999107 27.169713 </vector>
+			<view>1</view>
+			<weight>1</weight>
+		</tp_prcs>
+		<tp_prcs name="12" kind="TP_PRCSX"><active>1</active><fixed>1</fixed><height>0</height>
+			<linked_ref noderef="/courtyard/TPL (GLCS)/12"/>
+			<name>12</name><vector length="3"> -86.402014000006592 247.07323799998262 27.317342 </vector>
+			<view>1</view>
+			<weight>1</weight>
+		</tp_prcs>
+		<tp_prcs name="14" kind="TP_PRCSX"><active>1</active><fixed>1</fixed><height>0</height>
+			<linked_ref noderef="/courtyard/TPL (GLCS)/14"/>
+			<name>14</name><vector length="3"> -82.09318999999959 245.43707400001584 27.325836 </vector>
+			<view>1</view>
+			<weight>1</weight>
+		</tp_prcs>
+		<tp_prcs name="17" kind="TP_PRCSX"><active>1</active><fixed>1</fixed><height>0</height>
+			<linked_ref noderef="/courtyard/TPL (GLCS)/17"/>
+			<name>17</name><vector length="3"> -75.611648999998592 242.94680099998368 27.311249000000003 </vector>
+			<view>1</view>
+			<weight>1</weight>
+		</tp_prcs>
+		<tp_prcs name="19" kind="TP_PRCSX"><active>1</active><fixed>1</fixed><height>0</height>
+			<linked_ref noderef="/courtyard/TPL (GLCS)/19"/>
+			<name>19</name><vector length="3"> -71.485469999999629 241.2452620000113 27.81057 </vector>
+			<view>1</view>
+			<weight>1</weight>
+		</tp_prcs>
+		<tp_prcs name="21" kind="TP_PRCSX"><active>1</active><fixed>1</fixed><height>0</height>
+			<linked_ref noderef="/courtyard/TPL (GLCS)/21"/>
+			<name>21</name><vector length="3"> -88.544876999993011 247.90658399998208 30.152253 </vector>
+			<view>1</view>
+			<weight>1</weight>
+		</tp_prcs>
+		<tp_prcs name="22" kind="TP_PRCSX"><active>1</active><fixed>1</fixed><height>0</height>
+			<linked_ref noderef="/courtyard/TPL (GLCS)/22"/>
+			<name>22</name><vector length="3"> -86.41699300000617 247.0811710000271 30.166925999999987 </vector>
+			<view>1</view>
+			<weight>1</weight>
+		</tp_prcs>
+		<tp_prcs name="24" kind="TP_PRCSX"><active>1</active><fixed>1</fixed><height>0</height>
+			<linked_ref noderef="/courtyard/TPL (GLCS)/24"/>
+			<name>24</name><vector length="3"> -82.109538999997312 245.42823000001955 30.066604000000013 </vector>
+			<view>1</view>
+			<weight>1</weight>
+		</tp_prcs>
+		<tp_prcs name="27" kind="TP_PRCSX"><active>1</active><fixed>1</fixed><height>0</height>
+			<linked_ref noderef="/courtyard/TPL (GLCS)/27"/>
+			<name>27</name><vector length="3"> -75.637644000002202 242.94270000001408 30.196919000000006 </vector>
+			<view>1</view>
+			<weight>1</weight>
+		</tp_prcs>
+		<tp_prcs name="31" kind="TP_PRCSX"><active>1</active><fixed>1</fixed><height>0</height>
+			<linked_ref noderef="/courtyard/TPL (GLCS)/31"/>
+			<name>31</name><vector length="3"> -53.678323999993152 236.40494199999376 30.180518000000006 </vector>
+			<view>1</view>
+			<weight>1</weight>
+		</tp_prcs>
+		<tp_prcs name="32" kind="TP_PRCSX"><active>1</active><fixed>1</fixed><height>0</height>
+			<linked_ref noderef="/courtyard/TPL (GLCS)/32"/>
+			<name>32</name><vector length="3"> -53.678278000006688 236.4049799999921 30.180502999999987 </vector>
+			<view>1</view>
+			<weight>1</weight>
+		</tp_prcs>
+		<tp_prcs name="33" kind="TP_PRCSX"><active>1</active><fixed>1</fixed><height>0</height>
+			<linked_ref noderef="/courtyard/TPL (GLCS)/33"/>
+			<name>33</name><vector length="3"> -51.794609000004128 241.35444899997677 27.469577 </vector>
+			<view>1</view>
+			<weight>1</weight>
+		</tp_prcs>
+		<tp_prcs name="41" kind="TP_PRCSX"><active>1</active><fixed>1</fixed><height>0</height>
+			<linked_ref noderef="/courtyard/TPL (GLCS)/41"/>
+			<name>41</name><vector length="3"> -53.67868599999929 236.40482799999878 30.180399 </vector>
+			<view>1</view>
+			<weight>1</weight>
+		</tp_prcs>
+		<tp_prcs name="43" kind="TP_PRCSX"><active>1</active><fixed>1</fixed><height>0</height>
+			<linked_ref noderef="/courtyard/TPL (GLCS)/43"/>
+			<name>43</name><vector length="3"> -51.777170000001197 241.5099460000056 30.227033000000006 </vector>
+			<view>1</view>
+			<weight>1</weight>
+		</tp_prcs>
+		<tp_prcs name="51" kind="TP_PRCSX"><active>1</active><fixed>1</fixed><height>0</height>
+			<linked_ref noderef="/courtyard/TPL (GLCS)/51"/>
+			<name>51</name><referrer_ref noderef="/courtyard/SCANS/ScanPos006_courtyard/TPL (SOCS)/TP_005"/><referrer_ref noderef="/courtyard/SCANS/ScanPos007_courtyard/TPL (SOCS)/tp001"/>
+			<refl_ref noderef="/courtyard/CALIBRATIONS/REFLECTOR/RIEGL Flat 5cm"/>
+			<vector length="3"> -72.076128999993677 253.9654710000032 28.050315000000013 </vector>
+			<view>1</view>
+			<weight>1</weight>
+		</tp_prcs>
+		<tp_prcs name="52" kind="TP_PRCSX"><active>1</active><fixed>1</fixed><height>0</height>
+			<linked_ref noderef="/courtyard/TPL (GLCS)/52"/>
+			<name>52</name><referrer_ref noderef="/courtyard/SCANS/ScanPos006_courtyard/TPL (SOCS)/TP_003"/><referrer_ref noderef="/courtyard/SCANS/ScanPos007_courtyard/TPL (SOCS)/TP_001"/>
+			<refl_ref noderef="/courtyard/CALIBRATIONS/REFLECTOR/RIEGL Flat 5cm"/>
+			<vector length="3"> -73.318050000001664 260.49313900002746 27.534480000000006 </vector>
+			<view>1</view>
+			<weight>1</weight>
+		</tp_prcs>
+		<tp_prcs name="53" kind="TP_PRCSX"><active>1</active><fixed>1</fixed><height>0</height>
+			<linked_ref noderef="/courtyard/TPL (GLCS)/53"/>
+			<name>53</name><referrer_ref noderef="/courtyard/SCANS/ScanPos006_courtyard/TPL (SOCS)/TP_001"/><referrer_ref noderef="/courtyard/SCANS/ScanPos007_courtyard/TPL (SOCS)/TP_002"/>
+			<refl_ref noderef="/courtyard/CALIBRATIONS/REFLECTOR/RIEGL Flat 5cm"/>
+			<vector length="3"> -58.866542999996442 265.43318900000304 26.988553 </vector>
+			<view>1</view>
+			<weight>1</weight>
+		</tp_prcs>
+		<tp_prcs name="54" kind="TP_PRCSX"><active>1</active><fixed>1</fixed><height>0</height>
+			<linked_ref noderef="/courtyard/TPL (GLCS)/54"/>
+			<name>54</name><referrer_ref noderef="/courtyard/SCANS/ScanPos006_courtyard/TPL (SOCS)/TP_004"/><referrer_ref noderef="/courtyard/SCANS/ScanPos007_courtyard/TPL (SOCS)/TP_003"/>
+			<refl_ref noderef="/courtyard/CALIBRATIONS/REFLECTOR/RIEGL Flat 5cm"/>
+			<vector length="3"> -56.036890999996096 254.87997900001936 27.968536 </vector>
+			<view>1</view>
+			<weight>1</weight>
+		</tp_prcs>
+		<tp_prcs name="112" kind="TP_PRCSX"><active>1</active><fixed>1</fixed><height>0</height>
+			<linked_ref noderef="/courtyard/TPL (GLCS)/112"/>
+			<name>112</name><vector length="3"> -64.949324999994138 238.6950819999911 27.722471 </vector>
+			<view>1</view>
+			<weight>1</weight>
+		</tp_prcs>
+		<tp_prcs name="114" kind="TP_PRCSX"><active>1</active><fixed>1</fixed><height>0</height>
+			<linked_ref noderef="/courtyard/TPL (GLCS)/114"/>
+			<name>114</name><vector length="3"> -60.303035000004454 237.0490349999745 27.202323000000006 </vector>
+			<view>1</view>
+			<weight>1</weight>
+		</tp_prcs>
+		<tp_prcs name="210" kind="TP_PRCSX"><active>1</active><fixed>1</fixed><height>0</height>
+			<linked_ref noderef="/courtyard/TPL (GLCS)/210"/>
+			<name>210</name><vector length="3"> -69.232311999992819 240.49867499998074 30.072891999999994 </vector>
+			<view>1</view>
+			<weight>1</weight>
+		</tp_prcs>
+		<tp_prcs name="212" kind="TP_PRCSX"><active>1</active><fixed>1</fixed><height>0</height>
+			<linked_ref noderef="/courtyard/TPL (GLCS)/212"/>
+			<name>212</name><vector length="3"> -64.757964999997056 238.7525729999761 30.188566000000006 </vector>
+			<view>1</view>
+			<weight>1</weight>
+		</tp_prcs>
+		<tp_prcs name="214" kind="TP_PRCSX"><active>1</active><fixed>1</fixed><height>0</height>
+			<linked_ref noderef="/courtyard/TPL (GLCS)/214"/>
+			<name>214</name><vector length="3"> -60.463675000006336 237.0559370000265 30.194537 </vector>
+			<view>1</view>
+			<weight>1</weight>
+		</tp_prcs>
+		<tp_prcs name="10002" kind="TP_PRCSX"><active>1</active><fixed>1</fixed><height>0</height>
+			<linked_ref noderef="/courtyard/TPL (GLCS)/10002"/>
+			<name>10002</name><vector length="3"> -75.388000000006272 -81.838999999978112 32.444999999999994 </vector>
+			<view>1</view>
+			<weight>1</weight>
+		</tp_prcs>
+		<tp_prcs name="10003" kind="TP_PRCSX"><active>1</active><fixed>1</fixed><height>0</height>
+			<linked_ref noderef="/courtyard/TPL (GLCS)/10003"/>
+			<name>10003</name><vector length="3"> -76.755000000004672 94.374000000010726 9.9890000000000038 </vector>
+			<view>1</view>
+			<weight>1</weight>
+		</tp_prcs>
+		<tp_prcs name="10004" kind="TP_PRCSX"><active>1</active><fixed>1</fixed><height>0</height>
+			<linked_ref noderef="/courtyard/TPL (GLCS)/10004"/>
+			<name>10004</name><vector length="3"> -63.198999999993242 255.94900000002234 25.896 </vector>
+			<view>1</view>
+			<weight>1</weight>
+		</tp_prcs>
+		<tp_prcs name="10005" kind="TP_PRCSX"><active>1</active><fixed>1</fixed><height>0</height>
+			<linked_ref noderef="/courtyard/TPL (GLCS)/10005"/>
+			<name>10005</name><vector length="3"> -98.221000000004992 264.69900000002234 24.8 </vector>
+			<view>1</view>
+			<weight>1</weight>
+		</tp_prcs>
+		<tp_prcs name="10006" kind="TP_PRCSX"><active>1</active><fixed>1</fixed><height>0</height>
+			<linked_ref noderef="/courtyard/TPL (GLCS)/10006"/>
+			<name>10006</name><vector length="3"> -69.780989000006246 235.78681899997174 26.014371999999994 </vector>
+			<view>1</view>
+			<weight>1</weight>
+		</tp_prcs>
+		<tp_prcs name="10007" kind="TP_PRCSX"><active>1</active><fixed>1</fixed><height>0</height>
+			<linked_ref noderef="/courtyard/TPL (GLCS)/10007"/>
+			<name>10007</name><vector length="3"> -80.358152000000704 227.55746500001987 25.397983999999997 </vector>
+			<view>1</view>
+			<weight>1</weight>
+		</tp_prcs>
+		<tp_prcs name="10008" kind="TP_PRCSX"><active>1</active><fixed>1</fixed><height>0</height>
+			<linked_ref noderef="/courtyard/TPL (GLCS)/10008"/>
+			<name>10008</name><vector length="3"> -62.130126999996723 231.74210400000448 26.05825 </vector>
+			<view>1</view>
+			<weight>1</weight>
+		</tp_prcs>
+		<tp_prcs name="10009" kind="TP_PRCSX"><active>1</active><fixed>1</fixed><height>0</height>
+			<linked_ref noderef="/courtyard/TPL (GLCS)/10009"/>
+			<name>10009</name><vector length="3"> -47.545092000000288 229.5826389999711 26.281555 </vector>
+			<view>1</view>
+			<weight>1</weight>
+		</tp_prcs>
+		<tp_prcs name="10010" kind="TP_PRCSX"><active>1</active><fixed>1</fixed><height>0</height>
+			<linked_ref noderef="/courtyard/TPL (GLCS)/10010"/>
+			<name>10010</name><vector length="3"> -67.792734999995443 226.5999329999904 25.686038 </vector>
+			<view>1</view>
+			<weight>1</weight>
+		</tp_prcs>
+		<tp_prcs name="10011" kind="TP_PRCSX"><active>1</active><fixed>1</fixed><height>0</height>
+			<linked_ref noderef="/courtyard/TPL (GLCS)/10011"/>
+			<name>10011</name><vector length="3"> -75.821702999994163 238.49848499998915 26.011341 </vector>
+			<view>1</view>
+			<weight>1</weight>
+		</tp_prcs>
+		<tp_prcs name="90001" kind="TP_PRCSX"><active>1</active><fixed>1</fixed><height>0</height>
+			<linked_ref noderef="/courtyard/TPL (GLCS)/90001"/>
+			<name>90001</name><vector length="3"> -80.206208000003238 235.88915599999014 26.978300000000003 </vector>
+			<view>1</view>
+			<weight>1</weight>
+		</tp_prcs>
+		<tp_prcs name="90003" kind="TP_PRCSX"><active>1</active><fixed>1</fixed><height>0</height>
+			<linked_ref noderef="/courtyard/TPL (GLCS)/90003"/>
+			<name>90003</name><vector length="3"> -46.742465999996058 227.15406600001731 27.904525000000006 </vector>
+			<view>1</view>
+			<weight>1</weight>
+		</tp_prcs>
+		<tp_prcs name="A10002" kind="TP_PRCSX"><active>1</active><fixed>1</fixed><height>0</height>
+			<linked_ref noderef="/courtyard/TPL (GLCS)/A10002"/>
+			<name>A10002</name><vector length="3"> -75.390108999999936 -81.805833999998874 32.458673000000006 </vector>
+			<view>1</view>
+			<weight>1</weight>
+		</tp_prcs>
+		<tp_prcs name="A10003" kind="TP_PRCSX"><active>1</active><fixed>1</fixed><height>0</height>
+			<linked_ref noderef="/courtyard/TPL (GLCS)/A10003"/>
+			<name>A10003</name><vector length="3"> -75.389689000003264 -81.805916999990592 32.454484000000006 </vector>
+			<view>1</view>
+			<weight>1</weight>
+		</tp_prcs>
+	</tpl_prcs>
+	<views name="VIEWS" kind="VIEWS" fold="VIEWS"><objectview name="courtyard" kind="ViewObjectsX"><background_color>0</background_color><bbox_color>16777215</bbox_color>
+			<coordsys_ref noderef="/courtyard/SCANS/ScanPos006_courtyard/TPL (SOCS)"/><dynamic_div_fps>8</dynamic_div_fps>
+			<dynamic_div_mode>0</dynamic_div_mode><dynamic_divider>4</dynamic_divider><font_color>16777215</font_color>
+			<font_name>Arial</font_name><font_scale>1</font_scale>
+			<font_style>0</font_style>
+			<geometryinfo><intmax>0.10399023443460464</intmax>
+				<intmin>0.014053558930754662</intmin>
+				<maxcart length="3"> 284.56997680664064 677.10791015624998 355.38259887695315 </maxcart><maxpolar length="3"> 0 0 0 </maxpolar>
+				<mincart length="3"> -499.05523681640627 -74.660491943359373 -27.084648132324218 </mincart>
+				<minpolar length="3"> INF 6.2831854820251469 6.2831854820251469 </minpolar>
+				<valid_cart>1</valid_cart>
+				<valid_int>1</valid_int>
+			</geometryinfo>
+			<gsm_view_crs></gsm_view_crs><gsm_view_dtr></gsm_view_dtr><gsm_view_on>0</gsm_view_on>
+      <name>courtyard</name>
+			<objects_referenced><object_referenced><a_dataloaded>1</a_dataloaded><a_locked>0</a_locked>
+          <a_type>Camera</a_type><camera_mode>Orthogonal</camera_mode><depth_of_view>-1</depth_of_view>
+          <direction length="4"> 0.21336014568805696 0.91973668336868288 -0.32948729395866394 0 </direction><focal_length>100</focal_length>
+          <navigation_mode>0</navigation_mode><near_plane>0</near_plane><ortho_dist>783.62524414062502</ortho_dist>
+          <ortho_scene_scale>0.03494228795170784</ortho_scene_scale>
+          <position length="4"> -555.78741455078125 -1857.5643310546874 786.33715820312499 1 </position><prcs_scale length="3"> 1 1 1 </prcs_scale>
+          <scene_scale>1</scene_scale>
+          <up length="4"> 0.12810148298740387 0.30800417065620422 0.94272130727767949 0 </up>
+        </object_referenced><object_referenced><a_dataloaded>1</a_dataloaded><a_locked>0</a_locked>
+          <a_type>LightSource</a_type><azimuth>45</azimuth><elevation>45</elevation>
+          <shining>1</shining><source_mode>0</source_mode>
+        </object_referenced><object_referenced><a_dataloaded>1</a_dataloaded><a_locked>0</a_locked>
+          <a_type>Scan</a_type><color_mode>0</color_mode>
+          <multi_color>1</multi_color>
+          <object_ref noderef="/courtyard/SCANS/ScanPos006_courtyard/SINGLESCANS/110428_123115"/><point_color>16777215</point_color>
+          <point_size>1</point_size><point_size_mode>0</point_size_mode><show_first_targets>1</show_first_targets><show_last_targets>1</show_last_targets>
+          <show_other_targets>1</show_other_targets>
+          <show_single_targets>1</show_single_targets>
+          <smooth_points>0</smooth_points><view_description><combine>0</combine>
+            <lut>grayscales_bw</lut><lut_cycles>1</lut_cycles>
+            <param><paramtype>5</paramtype><paramvalue>1</paramvalue>
+            </param>
+            <paramcount>1</paramcount>
+            <viewtype>33556481</viewtype>
+          </view_description>
+          <visible>1</visible>
+        </object_referenced><object_referenced><a_dataloaded>1</a_dataloaded><a_locked>0</a_locked>
+          <a_type>Position</a_type><color>255</color>
+          <object_ref noderef="/courtyard/SCANS/ScanPos006_courtyard"/><show_caption>1</show_caption><tp_connection><mode>1</mode>
+            <show_dist>1</show_dist>
+            <visible>0</visible>
+          </tp_connection>
+          <visible>1</visible>
+        </object_referenced><object_referenced><a_dataloaded>1</a_dataloaded><a_locked>0</a_locked>
+          <a_type>Scan</a_type><color_mode>0</color_mode>
+          <multi_color>1</multi_color>
+          <object_ref noderef="/courtyard/SCANS/ScanPos007_courtyard/SINGLESCANS/110428_124237"/><point_color>65280</point_color>
+          <point_size>1</point_size><point_size_mode>0</point_size_mode><show_first_targets>1</show_first_targets><show_last_targets>1</show_last_targets>
+          <show_other_targets>1</show_other_targets>
+          <show_single_targets>1</show_single_targets>
+          <smooth_points>0</smooth_points><view_description><combine>0</combine>
+            <lut>grayscales_bw</lut><lut_cycles>1</lut_cycles>
+            <param><paramtype>5</paramtype><paramvalue>1</paramvalue>
+            </param>
+            <paramcount>1</paramcount>
+            <viewtype>33556481</viewtype>
+          </view_description>
+          <visible>0</visible>
+        </object_referenced><object_referenced><a_dataloaded>1</a_dataloaded><a_locked>0</a_locked>
+          <a_type>Position</a_type><color>16711680</color>
+          <object_ref noderef="/courtyard/SCANS/ScanPos007_courtyard"/><show_caption>1</show_caption><tp_connection><mode>1</mode>
+            <show_dist>1</show_dist>
+            <visible>0</visible>
+          </tp_connection>
+          <visible>1</visible>
+        </object_referenced>
+      </objects_referenced>
+      <overlay_ref noderef="/courtyard/COLLECTIONS/OVERLAYS/Logo"/><pickpoint_color>255</pickpoint_color>
+			<pickpoint_size>4</pickpoint_size>
+			<show_axis>1</show_axis>
+			<show_bbox>0</show_bbox>
+			<show_grid>0</show_grid>
+			<static_divider>1</static_divider>
+		</objectview>
+	</views>
+</project>

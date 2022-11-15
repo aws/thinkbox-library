@@ -1,0 +1,14 @@
+3
+hdri_colors.csv
+#
+-1 0 0 0
+0 1 0 0
+0 0 1 0
+0 0 0 1
+singleplusoffset.csv
+#
+-1 0 0 2
+0 -1 0 -4
+0 0 -1 7
+0 0 0 1
+0
