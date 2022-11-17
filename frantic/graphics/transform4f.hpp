@@ -20,7 +20,11 @@ class quat4t;
 #include <boost/lexical_cast.hpp>
 
 #ifdef MAX_VERSION
-#include <Matrix3.h>
+#if MAX_RELEASE >= 25000
+  #include <geom/Matrix3.h>
+#else
+  #include <Matrix3.h>
+#endif
 #endif
 
 namespace frantic {

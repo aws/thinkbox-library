@@ -2,18 +2,19 @@
 // SPDX-License-Identifier: Apache-2.0
 #pragma once
 
-
-#include <algorithm>
-#include <cctype>
-#include <cstdio>
-#include <stdexcept>
-#include <vector>
-#ifndef _USE_MATH_DEFINES
-#define _USE_MATH_DEFINES
-#endif
-#include <cmath>
+#include <frantic/strings/to_string_classic.hpp>
+#include <frantic/strings/tstring.hpp>
 
 #include <boost/lexical_cast.hpp>
+
+#include <algorithm>
+#include <string>
+#include <stdexcept>
+#include <sstream>
+#include <vector>
+
+#include <cctype>
+#include <cstdio>
 
 #if defined( _MSC_VER )
 #pragma warning( push )
@@ -21,8 +22,6 @@
 #pragma warning( disable : 4996 )
 #endif
 
-#include <frantic/strings/to_string_classic.hpp>
-#include <frantic/strings/tstring.hpp>
 
 namespace frantic {
 namespace strings {

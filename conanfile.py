@@ -38,7 +38,7 @@ REQUIRES: list[str] = [
 
 class ThinkboxLibraryConan(ConanFile):
     name: str = 'thinkboxlibrary'
-    version: str = '1.0.0'
+    version: str = '1.0.1'
     license: str = 'Apache-2.0'
     description: str = 'Shared code for Thinkbox Artist Tools.'
     tool_requires: list[str] = TOOL_REQUIRES

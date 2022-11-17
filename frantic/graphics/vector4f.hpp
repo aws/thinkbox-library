@@ -5,7 +5,11 @@
 #include <frantic/graphics/transform4f.hpp>
 
 #ifdef MAX_VERSION
-#include <Quat.h>
+#if MAX_RELEASE >= 25000
+  #include <geom/Quat.h>
+#else
+  #include <Quat.h>
+#endif
 #endif
 
 namespace frantic {
